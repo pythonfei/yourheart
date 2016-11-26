@@ -1,0 +1,2010 @@
+[I 161125 15:58:39 web:1946] 304 GET / (127.0.0.1) 242.78ms
+[I 161125 15:58:40 web:1946] 200 GET /static/js/ihome/index.js (127.0.0.1) 108.61ms
+[I 161125 15:58:40 web:1946] 200 GET /api/check_login (127.0.0.1) 0.46ms
+[W 161125 15:58:44 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 79.75ms
+[I 161125 15:58:47 web:1946] 304 GET /register.html (127.0.0.1) 32.71ms
+[I 161125 15:58:47 web:1946] 304 GET /static/js/ihome/register.js (127.0.0.1) 16.81ms
+[I 161125 15:58:48 web:1946] 200 GET /api/imagecode?pcodeid=&codeid=30cab9b1-48e5-48e5-bb39-4ce9f1bb7887 (127.0.0.1) 304.47ms
+[I 161125 15:59:00 web:1946] 200 POST /api/smscode (127.0.0.1) 838.92ms
+[I 161125 15:59:13 web:1946] 200 GET /api/imagecode?pcodeid=30cab9b1-48e5-48e5-bb39-4ce9f1bb7887&codeid=a9283dd7-1afb-4d63-9380-ee3e27c70fba (127.0.0.1) 9.78ms
+[I 161125 15:59:21 web:1946] 200 POST /api/smscode (127.0.0.1) 1.42ms
+[I 161125 15:59:21 web:1946] 200 GET /api/imagecode?pcodeid=a9283dd7-1afb-4d63-9380-ee3e27c70fba&codeid=c9818220-d8da-4d1b-85ba-8b010d86a0b9 (127.0.0.1) 13.57ms
+[I 161125 15:59:23 web:1946] 200 GET /api/imagecode?pcodeid=c9818220-d8da-4d1b-85ba-8b010d86a0b9&codeid=a9d4e4ab-cff4-4fbd-acb5-42a38fde827e (127.0.0.1) 12.54ms
+[I 161125 15:59:32 web:1946] 200 POST /api/smscode (127.0.0.1) 781.29ms
+[I 161125 15:59:51 web:1946] 200 POST /api/phoneCode (127.0.0.1) 1.43ms
+[E 161125 15:59:59 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 15:59:59 session:38] 10df432e11a3512a9c49ecc9d5320b11
+[E 161125 15:59:59 register:65] global name 'sessObj' is not defined
+[E 161125 15:59:59 register:67] ----------------------------------------
+[I 161125 15:59:59 web:1946] 200 POST /api/submitdata (127.0.0.1) 174.88ms
+[I 161125 16:00:00 web:1946] 200 GET /api/imagecode?pcodeid=a9d4e4ab-cff4-4fbd-acb5-42a38fde827e&codeid=b2eb7869-6cf8-4f28-a42b-d6f9a4999c6d (127.0.0.1) 20.90ms
+[I 161125 16:01:02 autoreload:204] /home/python/Desktop/ihome/handlers/register.py modified; restarting server
+[E 161125 16:02:32 register:56] (1062, "Duplicate entry '15038140520' for key 'up_name'")
+[I 161125 16:02:32 web:1946] 200 POST /api/submitdata (127.0.0.1) 39.02ms
+[I 161125 16:02:32 web:1946] 200 GET /api/imagecode?pcodeid=b2eb7869-6cf8-4f28-a42b-d6f9a4999c6d&codeid=e853780f-5d33-4661-ab2e-26dd1b85b7c2 (127.0.0.1) 47.13ms
+[I 161125 16:06:46 autoreload:204] /home/python/Desktop/ihome/handlers/register.py modified; restarting server
+[E 161125 16:06:53 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 16:06:53 session:38] 10df432e11a3512a9c49ecc9d5320b11
+[E 161125 16:06:53 register:62] {'mobile': u'15038140520', 'user_id': 40L, 'name': u'15038140520'}
+[I 161125 16:06:53 web:1946] 200 POST /api/submitdata (127.0.0.1) 7.38ms
+[I 161125 16:06:53 web:1946] 304 GET /static/js/ihome/login.js (127.0.0.1) 29.51ms
+[E 161125 16:07:14 login:18] 15038140520
+[E 161125 16:07:14 login:31] {'up_name': u'15038140520', 'up_mobile': u'15038140520', 'up_passwd': u'7c222fb2927d828af22f592134e8932480637c0d', 'up_user_id': 40L}
+[I 161125 16:07:14 web:1946] 200 POST /api/logindata (127.0.0.1) 50.15ms
+[I 161125 16:07:14 web:1946] 304 GET /index.html (127.0.0.1) 2.47ms
+[I 161125 16:07:14 web:1946] 304 GET /static/js/ihome/index.js (127.0.0.1) 2.09ms
+[I 161125 16:07:15 web:1946] 304 GET /api/check_login (127.0.0.1) 0.90ms
+[W 161125 16:07:15 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 2.50ms
+[I 161125 16:08:14 autoreload:204] /home/python/Desktop/ihome/handlers/register.py modified; restarting server
+[I 161125 16:13:41 autoreload:204] /home/python/Desktop/ihome/handlers/BaseHandler.py modified; restarting server
+[I 161125 16:18:33 autoreload:204] /home/python/Desktop/ihome/handlers/passport.py modified; restarting server
+[I 161125 16:34:19 web:1946] 304 GET /login.html (127.0.0.1) 75.41ms
+[I 161125 16:34:19 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 50.99ms
+[I 161125 16:34:19 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 18.11ms
+[I 161125 16:34:19 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 14.38ms
+[I 161125 16:34:19 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 1.51ms
+[I 161125 16:34:19 web:1946] 304 GET /static/css/ihome/login.css (127.0.0.1) 1.40ms
+[I 161125 16:34:19 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 8.36ms
+[I 161125 16:34:19 web:1946] 304 GET /static/js/ihome/login.js (127.0.0.1) 15.64ms
+[I 161125 16:34:19 web:1946] 304 GET /static/images/logo@128x59.png (127.0.0.1) 17.52ms
+[I 161125 16:34:19 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 4.09ms
+[E 161125 16:34:30 login:18] 13863967948
+[E 161125 16:34:30 login:31] None
+[I 161125 16:34:30 web:1946] 200 POST /api/logindata (127.0.0.1) 4.27ms
+[E 161125 16:34:47 login:18] 15038140520
+[E 161125 16:34:47 login:31] {'up_name': u'15038140520', 'up_mobile': u'15038140520', 'up_passwd': u'7c222fb2927d828af22f592134e8932480637c0d', 'up_user_id': 40L}
+[E 161125 16:34:47 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 16:34:47 session:38] 10df432e11a3512a9c49ecc9d5320b11
+[I 161125 16:34:47 web:1946] 200 POST /api/logindata (127.0.0.1) 7.60ms
+[I 161125 16:34:48 web:1946] 200 GET /static/js/ihome/index.js (127.0.0.1) 2.43ms
+[I 161125 16:34:48 web:1946] 200 GET /api/check_login (127.0.0.1) 1.96ms
+[W 161125 16:34:48 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 2.18ms
+[I 161125 16:35:11 web:1946] 200 GET /my.html (127.0.0.1) 45.40ms
+[I 161125 16:35:12 web:1946] 200 GET /static/js/ihome/my.js (127.0.0.1) 13.42ms
+[I 161125 16:35:12 web:1946] 200 GET /static/css/ihome/my.css (127.0.0.1) 18.14ms
+[I 161125 16:48:43 autoreload:204] /home/python/Desktop/ihome/config.py modified; restarting server
+[I 161125 17:08:37 autoreload:204] /home/python/Desktop/ihome/config.py modified; restarting server
+[I 161125 17:20:42 autoreload:204] /home/python/Desktop/ihome/urls.py modified; restarting server
+[I 161125 17:41:51 web:1946] 304 GET /my.html (127.0.0.1) 43.31ms
+[I 161125 17:41:52 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 25.04ms
+[I 161125 17:41:52 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 11.26ms
+[I 161125 17:41:52 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 9.89ms
+[I 161125 17:41:52 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 14.71ms
+[I 161125 17:41:52 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 12.12ms
+[I 161125 17:41:52 web:1946] 304 GET /static/css/ihome/my.css (127.0.0.1) 8.73ms
+[I 161125 17:41:52 web:1946] 304 GET /static/js/ihome/my.js (127.0.0.1) 11.32ms
+[I 161125 17:41:52 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 39.96ms
+[I 161125 17:41:52 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 15.90ms
+[I 161125 17:41:52 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 16.00ms
+[I 161125 17:41:52 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 25.43ms
+[I 161125 17:41:56 web:1946] 304 GET /static/js/ihome/index.js (127.0.0.1) 49.01ms
+[W 161125 17:41:56 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 89.42ms
+[E 161125 17:41:56 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 17:41:56 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161125 17:41:56 web:1946] 200 GET /api/check_login (127.0.0.1) 3.19ms
+[I 161125 17:42:10 web:1946] 200 GET /api/imagecode?pcodeid=&codeid=ba261a97-3ebd-4c29-8174-28019fd16624 (127.0.0.1) 265.62ms
+[I 161125 17:42:23 web:1946] 200 POST /api/phoneCode (127.0.0.1) 1.59ms
+[E 161125 17:42:32 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 17:42:32 session:38] 9e386e15bee8589fa25940e167593648
+[E 161125 17:42:32 register:62] {'mobile': u'13863967948', 'user_id': 41L, 'name': u'13863967948'}
+[I 161125 17:42:32 web:1946] 200 POST /api/submitdata (127.0.0.1) 427.26ms
+[E 161125 17:42:43 login:18] 13863967948
+[E 161125 17:42:43 login:31] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_passwd': u'7c222fb2927d828af22f592134e8932480637c0d', 'up_user_id': 41L}
+[I 161125 17:42:43 web:1946] 200 POST /api/logindata (127.0.0.1) 39.38ms
+[I 161125 17:42:43 web:1946] 200 GET /api/check_login (127.0.0.1) 1.32ms
+[W 161125 17:42:43 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 1.32ms
+[I 161125 17:42:53 web:1946] 200 GET /profile.html (127.0.0.1) 33.07ms
+[I 161125 17:42:53 web:1946] 200 GET /static/css/ihome/profile.css (127.0.0.1) 22.49ms
+[I 161125 17:42:53 web:1946] 200 GET /static/js/jquery.form.min.js (127.0.0.1) 150.74ms
+[I 161125 17:42:53 web:1946] 200 GET /static/js/ihome/profile.js (127.0.0.1) 56.68ms
+[I 161125 18:56:05 web:1946] 304 GET /my.html (127.0.0.1) 2.47ms
+[I 161125 18:56:05 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 54.12ms
+[I 161125 18:56:05 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 7.69ms
+[I 161125 18:56:05 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 3.13ms
+[I 161125 18:56:05 web:1946] 304 GET /static/css/ihome/my.css (127.0.0.1) 6.30ms
+[I 161125 18:56:05 web:1946] 200 GET /static/js/ihome/my.js (127.0.0.1) 1.73ms
+[I 161125 18:56:05 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 63.82ms
+[I 161125 18:56:05 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 79.77ms
+[I 161125 18:56:05 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 70.01ms
+[I 161125 18:56:05 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 55.84ms
+[I 161125 18:56:05 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 38.80ms
+[I 161125 18:56:05 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 7.15ms
+[W 161125 18:56:06 web:1946] 404 GET /api/mymsg (127.0.0.1) 1.15ms
+[I 161125 18:57:01 autoreload:204] /home/python/Desktop/ihome/urls.py modified; restarting server
+[I 161125 18:57:27 autoreload:204] /home/python/Desktop/ihome/urls.py modified; restarting server
+[I 161125 18:57:46 web:1946] 304 GET /my.html (127.0.0.1) 144.78ms
+[I 161125 18:57:46 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 1.51ms
+[I 161125 18:57:46 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 0.87ms
+[I 161125 18:57:46 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.40ms
+[I 161125 18:57:46 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 0.94ms
+[I 161125 18:57:46 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.08ms
+[I 161125 18:57:46 web:1946] 304 GET /static/css/ihome/my.css (127.0.0.1) 2.79ms
+[I 161125 18:57:46 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 1.26ms
+[I 161125 18:57:46 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 1.79ms
+[I 161125 18:57:46 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 2.65ms
+[I 161125 18:57:46 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 1.35ms
+[I 161125 18:57:46 web:1946] 304 GET /static/js/ihome/my.js (127.0.0.1) 3.20ms
+[E 161125 18:57:47 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 18:57:47 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161125 18:57:47 web:1946] 200 GET /api/mymsg (127.0.0.1) 1.56ms
+[I 161125 18:57:48 web:1946] 304 GET /static/js/ihome/index.js (127.0.0.1) 23.52ms
+[W 161125 18:57:48 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 105.38ms
+[E 161125 18:57:48 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 18:57:48 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161125 18:57:48 web:1946] 200 GET /api/check_login (127.0.0.1) 2.11ms
+[I 161125 18:59:53 web:1946] 304 GET /static/js/ihome/login.js (127.0.0.1) 58.61ms
+[E 161125 19:00:01 login:18] 13863967948
+[E 161125 19:00:01 login:31] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_passwd': u'7c222fb2927d828af22f592134e8932480637c0d', 'up_user_id': 41L}
+[E 161125 19:00:01 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 19:00:01 session:38] 9e386e15bee8589fa25940e167593648
+[I 161125 19:00:01 web:1946] 200 POST /api/logindata (127.0.0.1) 151.34ms
+[I 161125 19:00:02 web:1946] 200 GET /api/check_login (127.0.0.1) 2.57ms
+[W 161125 19:00:02 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 0.98ms
+[I 161125 19:00:06 web:1946] 304 GET /static/js/ihome/my.js (127.0.0.1) 2.56ms
+[E 161125 19:00:07 web:1524] Uncaught exception GET /api/mymsg (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/mymsg', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, sdch', 'X-Requested-With': 'XMLHttpRequest', 'Host': '127.0.0.1:8000', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36', 'Connection': 'keep-alive', 'Referer': 'http://127.0.0.1:8000/my.html', 'Cookie': '_xsrf=2|35499804|f3184b67eb05d13017bdc4f847925545|1479975423; session_id="2|1:0|10:1480071601|10:session_id|44:OWUzODZlMTViZWU4NTg5ZmEyNTk0MGUxNjc1OTM2NDg=|56f412b039a2757b74228efb1a4ca75ef424a8c1853bf7373c5d1ca4b0d7e09c"', 'If-None-Match': '"5653c60f8deb4041a81ae97fe57b1b9fc89f4f2d"'})
+    Traceback (most recent call last):
+      File "/home/python/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1443, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/python/Desktop/ihome/utils/common.py", line 11, in wrapper
+        fun(request_handler_obj, *args, **kwargs)
+      File "/home/python/Desktop/ihome/handlers/userCenter.py", line 15, in get
+        logging.error(e)
+    NameError: global name 'logging' is not defined
+[E 161125 19:00:07 web:1946] 500 GET /api/mymsg (127.0.0.1) 2.25ms
+[I 161125 19:00:14 web:1946] 304 GET /static/js/ihome/profile.js (127.0.0.1) 16.72ms
+[E 161125 19:00:18 web:1524] Uncaught exception GET /api/mymsg (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/mymsg', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, sdch', 'X-Requested-With': 'XMLHttpRequest', 'Host': '127.0.0.1:8000', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36', 'Connection': 'keep-alive', 'Referer': 'http://127.0.0.1:8000/my.html', 'Cookie': '_xsrf=2|35499804|f3184b67eb05d13017bdc4f847925545|1479975423; session_id="2|1:0|10:1480071601|10:session_id|44:OWUzODZlMTViZWU4NTg5ZmEyNTk0MGUxNjc1OTM2NDg=|56f412b039a2757b74228efb1a4ca75ef424a8c1853bf7373c5d1ca4b0d7e09c"'})
+    Traceback (most recent call last):
+      File "/home/python/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1443, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/python/Desktop/ihome/utils/common.py", line 11, in wrapper
+        fun(request_handler_obj, *args, **kwargs)
+      File "/home/python/Desktop/ihome/handlers/userCenter.py", line 15, in get
+        logging.error(e)
+    NameError: global name 'logging' is not defined
+[E 161125 19:00:18 web:1946] 500 GET /api/mymsg (127.0.0.1) 3.82ms
+[I 161125 19:00:59 autoreload:204] /home/python/Desktop/ihome/handlers/userCenter.py modified; restarting server
+[I 161125 19:01:59 web:1946] 304 GET /my.html (127.0.0.1) 5.36ms
+[I 161125 19:01:59 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.40ms
+[I 161125 19:01:59 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 1.08ms
+[I 161125 19:01:59 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 2.02ms
+[I 161125 19:01:59 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 16.31ms
+[I 161125 19:01:59 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 10.77ms
+[I 161125 19:01:59 web:1946] 304 GET /static/css/ihome/my.css (127.0.0.1) 3.21ms
+[I 161125 19:01:59 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.07ms
+[I 161125 19:01:59 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 1.09ms
+[I 161125 19:01:59 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 1.20ms
+[I 161125 19:01:59 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 0.84ms
+[I 161125 19:01:59 web:1946] 200 GET /static/js/ihome/my.js (127.0.0.1) 0.98ms
+[E 161125 19:01:59 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 19:01:59 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161125 19:01:59 web:1946] 200 GET /api/mymsg (127.0.0.1) 2.09ms
+[E 161125 19:02:36 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 19:02:36 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161125 19:02:36 web:1946] 200 GET /api/check_login (127.0.0.1) 2.51ms
+[W 161125 19:02:37 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 3.57ms
+[I 161125 19:02:38 web:1946] 304 GET / (127.0.0.1) 31.04ms
+[I 161125 19:02:39 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.26ms
+[I 161125 19:02:39 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.13ms
+[I 161125 19:02:39 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 0.81ms
+[I 161125 19:02:39 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 0.96ms
+[I 161125 19:02:39 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 1.16ms
+[I 161125 19:02:39 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 1.12ms
+[I 161125 19:02:39 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 1.05ms
+[I 161125 19:02:39 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 0.92ms
+[I 161125 19:02:39 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 0.90ms
+[I 161125 19:02:39 web:1946] 304 GET /static/plugins/swiper/js/swiper.jquery.min.js (127.0.0.1) 15.55ms
+[I 161125 19:02:39 web:1946] 304 GET /static/css/ihome/index.css (127.0.0.1) 12.63ms
+[I 161125 19:02:39 web:1946] 304 GET /static/js/ihome/index.js (127.0.0.1) 1.06ms
+[I 161125 19:02:39 web:1946] 304 GET /static/plugins/swiper/css/swiper.min.css (127.0.0.1) 15.63ms
+[I 161125 19:02:39 web:1946] 304 GET /static/js/template.js (127.0.0.1) 24.91ms
+[I 161125 19:02:39 web:1946] 304 GET /static/images/logo@128x59.png (127.0.0.1) 7.57ms
+[I 161125 19:02:39 web:1946] 304 GET /static/images/home01.jpg (127.0.0.1) 39.82ms
+[I 161125 19:02:39 web:1946] 304 GET /static/images/home02.jpg (127.0.0.1) 3.78ms
+[I 161125 19:02:39 web:1946] 304 GET /static/images/home03.jpg (127.0.0.1) 27.29ms
+[E 161125 19:02:39 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 19:02:39 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161125 19:02:39 web:1946] 304 GET /api/check_login (127.0.0.1) 3.08ms
+[W 161125 19:02:39 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 1.15ms
+[E 161125 19:02:55 login:18] 13863967948
+[E 161125 19:02:55 login:31] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_passwd': u'7c222fb2927d828af22f592134e8932480637c0d', 'up_user_id': 41L}
+[E 161125 19:02:55 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 19:02:55 session:38] 9e386e15bee8589fa25940e167593648
+[I 161125 19:02:55 web:1946] 200 POST /api/logindata (127.0.0.1) 17.18ms
+[I 161125 19:02:55 web:1946] 200 GET /api/check_login (127.0.0.1) 2.69ms
+[W 161125 19:02:56 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 3.64ms
+[I 161125 19:02:58 web:1946] 304 GET /static/js/ihome/my.js (127.0.0.1) 0.89ms
+[E 161125 19:02:59 userCenter:17] format requires a mapping
+[I 161125 19:02:59 web:1946] 200 GET /api/mymsg (127.0.0.1) 2.97ms
+[I 161125 19:06:21 autoreload:204] /home/python/Desktop/ihome/handlers/userCenter.py modified; restarting server
+[I 161125 19:07:00 autoreload:204] /home/python/Desktop/ihome/handlers/userCenter.py modified; restarting server
+[I 161125 19:09:46 web:1946] 304 GET / (127.0.0.1) 5.53ms
+[I 161125 19:09:46 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 2.16ms
+[I 161125 19:09:46 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 1.06ms
+[I 161125 19:09:46 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 1.46ms
+[I 161125 19:09:46 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 4.71ms
+[I 161125 19:09:46 web:1946] 304 GET /static/plugins/swiper/css/swiper.min.css (127.0.0.1) 1.80ms
+[I 161125 19:09:46 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 0.83ms
+[I 161125 19:09:46 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 0.88ms
+[I 161125 19:09:46 web:1946] 304 GET /static/css/ihome/index.css (127.0.0.1) 1.34ms
+[I 161125 19:09:46 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 1.07ms
+[I 161125 19:09:46 web:1946] 304 GET /static/plugins/swiper/js/swiper.jquery.min.js (127.0.0.1) 3.18ms
+[I 161125 19:09:46 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 8.81ms
+[I 161125 19:09:46 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 1.73ms
+[I 161125 19:09:46 web:1946] 304 GET /static/js/template.js (127.0.0.1) 0.96ms
+[I 161125 19:09:46 web:1946] 304 GET /static/js/ihome/index.js (127.0.0.1) 2.11ms
+[I 161125 19:09:46 web:1946] 304 GET /static/images/logo@128x59.png (127.0.0.1) 6.58ms
+[I 161125 19:09:46 web:1946] 304 GET /static/images/home03.jpg (127.0.0.1) 2.06ms
+[I 161125 19:09:46 web:1946] 304 GET /static/images/home02.jpg (127.0.0.1) 2.07ms
+[I 161125 19:09:46 web:1946] 304 GET /static/images/home01.jpg (127.0.0.1) 20.91ms
+[E 161125 19:09:46 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 19:09:46 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161125 19:09:46 web:1946] 200 GET /api/check_login (127.0.0.1) 4.53ms
+[W 161125 19:09:47 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 2.20ms
+[E 161125 19:09:59 login:18] 13863967948
+[E 161125 19:09:59 login:31] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_passwd': u'7c222fb2927d828af22f592134e8932480637c0d', 'up_user_id': 41L}
+[E 161125 19:09:59 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 19:09:59 session:38] 9e386e15bee8589fa25940e167593648
+[I 161125 19:09:59 web:1946] 200 POST /api/logindata (127.0.0.1) 7.06ms
+[I 161125 19:10:00 web:1946] 200 GET /api/check_login (127.0.0.1) 1.40ms
+[W 161125 19:10:00 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 1.07ms
+[I 161125 19:10:03 web:1946] 304 GET /static/js/ihome/my.js (127.0.0.1) 1.19ms
+[E 161125 19:10:04 userCenter:13] 41
+[E 161125 19:10:04 userCenter:19] format requires a mapping
+[I 161125 19:10:04 web:1946] 304 GET /api/mymsg (127.0.0.1) 67.17ms
+[I 161125 19:11:26 autoreload:204] /home/python/Desktop/ihome/handlers/userCenter.py modified; restarting server
+[E 161125 19:11:32 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 19:11:32 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161125 19:11:32 web:1946] 200 GET /api/check_login (127.0.0.1) 7.27ms
+[W 161125 19:11:33 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 2.90ms
+[E 161125 19:11:43 login:18] 13863967948
+[E 161125 19:11:43 login:31] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_passwd': u'7c222fb2927d828af22f592134e8932480637c0d', 'up_user_id': 41L}
+[E 161125 19:11:43 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 19:11:43 session:38] 9e386e15bee8589fa25940e167593648
+[I 161125 19:11:43 web:1946] 200 POST /api/logindata (127.0.0.1) 5.50ms
+[I 161125 19:11:44 web:1946] 200 GET /api/check_login (127.0.0.1) 1.45ms
+[W 161125 19:11:44 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 1.42ms
+[I 161125 19:11:46 web:1946] 304 GET /static/js/ihome/my.js (127.0.0.1) 5.48ms
+[E 161125 19:11:47 userCenter:13] 41
+[E 161125 19:11:47 userCenter:18] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_avatar': None}
+[I 161125 19:11:47 web:1946] 200 GET /api/mymsg (127.0.0.1) 6.90ms
+[I 161125 19:13:00 web:1946] 304 GET /my.html (127.0.0.1) 0.86ms
+[I 161125 19:13:01 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 3.20ms
+[I 161125 19:13:01 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 1.22ms
+[I 161125 19:13:01 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 0.91ms
+[I 161125 19:13:01 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 1.27ms
+[I 161125 19:13:01 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 3.38ms
+[I 161125 19:13:01 web:1946] 304 GET /static/css/ihome/my.css (127.0.0.1) 1.10ms
+[I 161125 19:13:01 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.13ms
+[I 161125 19:13:01 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 0.91ms
+[I 161125 19:13:01 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 0.87ms
+[I 161125 19:13:01 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 0.83ms
+[I 161125 19:13:01 web:1946] 200 GET /static/js/ihome/my.js (127.0.0.1) 1.71ms
+[E 161125 19:13:01 userCenter:13] 41
+[E 161125 19:13:01 userCenter:18] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_avatar': None}
+[I 161125 19:13:01 web:1946] 304 GET /api/mymsg (127.0.0.1) 4.16ms
+[I 161125 19:13:30 web:1946] 304 GET /my.html (127.0.0.1) 4.68ms
+[I 161125 19:13:30 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.70ms
+[I 161125 19:13:30 web:1946] 304 GET /static/css/ihome/my.css (127.0.0.1) 1.77ms
+[I 161125 19:13:30 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 5.80ms
+[I 161125 19:13:30 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 0.96ms
+[I 161125 19:13:30 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 1.72ms
+[I 161125 19:13:30 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 0.89ms
+[I 161125 19:13:30 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 0.99ms
+[I 161125 19:13:30 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 10.11ms
+[I 161125 19:13:30 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 4.79ms
+[I 161125 19:13:30 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 0.86ms
+[I 161125 19:13:30 web:1946] 200 GET /static/js/ihome/my.js (127.0.0.1) 0.90ms
+[E 161125 19:13:31 userCenter:13] 41
+[E 161125 19:13:31 userCenter:18] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_avatar': None}
+[I 161125 19:13:31 web:1946] 304 GET /api/mymsg (127.0.0.1) 4.15ms
+[I 161125 19:14:01 web:1946] 304 GET /my.html (127.0.0.1) 0.75ms
+[I 161125 19:14:01 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.44ms
+[I 161125 19:14:01 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 1.46ms
+[I 161125 19:14:01 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 1.14ms
+[I 161125 19:14:01 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 1.25ms
+[I 161125 19:14:01 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 1.20ms
+[I 161125 19:14:01 web:1946] 304 GET /static/css/ihome/my.css (127.0.0.1) 1.35ms
+[I 161125 19:14:01 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 2.54ms
+[I 161125 19:14:01 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 2.24ms
+[I 161125 19:14:01 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 1.80ms
+[I 161125 19:14:01 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 2.66ms
+[I 161125 19:14:01 web:1946] 200 GET /static/js/ihome/my.js (127.0.0.1) 1.04ms
+[E 161125 19:14:01 userCenter:13] 41
+[E 161125 19:14:01 userCenter:18] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_avatar': None}
+[I 161125 19:14:01 web:1946] 304 GET /api/mymsg (127.0.0.1) 4.67ms
+[I 161125 19:40:37 autoreload:204] /home/python/Desktop/ihome/handlers/userCenter.py modified; restarting server
+[I 161125 19:41:47 autoreload:204] /home/python/Desktop/ihome/urls.py modified; restarting server
+[I 161125 19:41:58 web:1946] 304 GET /my.html (127.0.0.1) 4.76ms
+[I 161125 19:41:59 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 2.03ms
+[I 161125 19:41:59 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 1.14ms
+[I 161125 19:41:59 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 1.59ms
+[I 161125 19:41:59 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 1.09ms
+[I 161125 19:41:59 web:1946] 304 GET /static/css/ihome/my.css (127.0.0.1) 1.04ms
+[I 161125 19:41:59 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.30ms
+[I 161125 19:41:59 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 2.20ms
+[I 161125 19:41:59 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 1.86ms
+[I 161125 19:41:59 web:1946] 200 GET /static/js/ihome/my.js (127.0.0.1) 2.42ms
+[I 161125 19:41:59 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 0.91ms
+[I 161125 19:41:59 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 1.11ms
+[E 161125 19:41:59 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 19:41:59 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161125 19:41:59 web:1946] 200 GET /api/mymsg (127.0.0.1) 14.37ms
+[I 161125 19:42:02 web:1946] 304 GET /static/js/ihome/index.js (127.0.0.1) 0.98ms
+[W 161125 19:42:02 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 4.05ms
+[E 161125 19:42:02 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 19:42:02 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161125 19:42:02 web:1946] 200 GET /api/check_login (127.0.0.1) 2.23ms
+[E 161125 19:42:15 login:18] 13863967948
+[E 161125 19:42:15 login:31] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_passwd': u'7c222fb2927d828af22f592134e8932480637c0d', 'up_user_id': 41L}
+[E 161125 19:42:15 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 19:42:15 session:38] 9e386e15bee8589fa25940e167593648
+[I 161125 19:42:15 web:1946] 200 POST /api/logindata (127.0.0.1) 6.48ms
+[I 161125 19:42:15 web:1946] 200 GET /api/check_login (127.0.0.1) 1.12ms
+[W 161125 19:42:16 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 1.15ms
+[I 161125 19:42:18 web:1946] 304 GET /static/js/ihome/my.js (127.0.0.1) 2.18ms
+[E 161125 19:42:18 userCenter:13] 41
+[E 161125 19:42:18 userCenter:18] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_avatar': None}
+[I 161125 19:42:18 web:1946] 200 GET /api/mymsg (127.0.0.1) 3.57ms
+[I 161125 19:42:21 web:1946] 200 GET /api/logout (127.0.0.1) 0.85ms
+[E 161125 19:42:22 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 19:42:22 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161125 19:42:22 web:1946] 200 GET /api/check_login (127.0.0.1) 1.32ms
+[W 161125 19:42:22 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 2.67ms
+[E 161125 19:42:55 login:18] 13863967948
+[E 161125 19:42:55 login:31] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_passwd': u'7c222fb2927d828af22f592134e8932480637c0d', 'up_user_id': 41L}
+[E 161125 19:42:55 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 19:42:55 session:38] 9e386e15bee8589fa25940e167593648
+[I 161125 19:42:55 web:1946] 200 POST /api/logindata (127.0.0.1) 3.31ms
+[I 161125 19:42:56 web:1946] 200 GET /api/check_login (127.0.0.1) 1.63ms
+[W 161125 19:42:56 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 1.06ms
+[I 161125 19:42:59 web:1946] 304 GET /static/js/ihome/my.js (127.0.0.1) 6.13ms
+[E 161125 19:42:59 userCenter:13] 41
+[E 161125 19:42:59 userCenter:18] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_avatar': None}
+[I 161125 19:42:59 web:1946] 304 GET /api/mymsg (127.0.0.1) 2.71ms
+[I 161125 19:43:03 web:1946] 200 GET /auth.html (127.0.0.1) 15.47ms
+[I 161125 19:43:04 web:1946] 200 GET /static/js/ihome/auth.js (127.0.0.1) 12.68ms
+[I 161125 21:27:14 web:1946] 304 GET /static/js/ihome/my.js (127.0.0.1) 28.67ms
+[E 161125 21:27:14 userCenter:13] 41
+[E 161125 21:27:14 userCenter:18] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_avatar': None}
+[I 161125 21:27:14 web:1946] 304 GET /api/mymsg (127.0.0.1) 90.68ms
+[I 161125 21:27:19 web:1946] 304 GET /static/js/ihome/profile.js (127.0.0.1) 51.32ms
+[E 161125 21:27:29 userCenter:13] 41
+[E 161125 21:27:29 userCenter:18] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_avatar': None}
+[I 161125 21:27:29 web:1946] 304 GET /api/mymsg (127.0.0.1) 9.66ms
+[I 161125 21:40:28 autoreload:204] /home/python/Desktop/ihome/handlers/userCenter.py modified; restarting server
+[I 161125 21:43:36 autoreload:204] /home/python/Desktop/ihome/handlers/userCenter.py modified; restarting server
+[I 161125 21:43:40 web:1946] 304 GET /auth.html (127.0.0.1) 44.63ms
+[I 161125 21:43:40 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 58.00ms
+[I 161125 21:43:40 web:1946] 304 GET /static/css/ihome/profile.css (127.0.0.1) 8.80ms
+[I 161125 21:43:40 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 2.39ms
+[I 161125 21:43:40 web:1946] 304 GET /static/js/jquery.form.min.js (127.0.0.1) 16.46ms
+[I 161125 21:43:40 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 13.60ms
+[I 161125 21:43:40 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 3.47ms
+[I 161125 21:43:40 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 15.72ms
+[I 161125 21:43:40 web:1946] 200 GET /static/js/ihome/auth.js (127.0.0.1) 2.68ms
+[I 161125 21:43:40 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 23.92ms
+[I 161125 21:43:40 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 8.91ms
+[I 161125 21:43:41 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 14.11ms
+[I 161125 21:43:41 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 9.74ms
+[I 161125 21:44:18 web:1946] 304 GET /auth.html (127.0.0.1) 1.17ms
+[I 161125 21:44:19 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.29ms
+[I 161125 21:44:19 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 0.98ms
+[I 161125 21:44:19 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 0.83ms
+[I 161125 21:44:19 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 0.95ms
+[I 161125 21:44:19 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 0.86ms
+[I 161125 21:44:19 web:1946] 304 GET /static/css/ihome/profile.css (127.0.0.1) 8.93ms
+[I 161125 21:44:19 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.05ms
+[I 161125 21:44:19 web:1946] 304 GET /static/js/jquery.form.min.js (127.0.0.1) 1.25ms
+[I 161125 21:44:19 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 1.55ms
+[I 161125 21:44:19 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 0.81ms
+[I 161125 21:44:19 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 0.89ms
+[I 161125 21:44:19 web:1946] 200 GET /static/js/ihome/auth.js (127.0.0.1) 1.19ms
+[W 161125 21:44:19 web:1946] 404 GET /api/auth (127.0.0.1) 32.20ms
+[I 161125 21:45:19 autoreload:204] /home/python/Desktop/ihome/urls.py modified; restarting server
+[I 161125 21:45:22 web:1946] 304 GET /auth.html (127.0.0.1) 7.06ms
+[I 161125 21:45:22 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 2.54ms
+[I 161125 21:45:22 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 2.48ms
+[I 161125 21:45:22 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 1.80ms
+[I 161125 21:45:22 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 2.75ms
+[I 161125 21:45:22 web:1946] 304 GET /static/js/jquery.form.min.js (127.0.0.1) 1.61ms
+[I 161125 21:45:22 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 4.03ms
+[I 161125 21:45:22 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 1.06ms
+[I 161125 21:45:22 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 0.97ms
+[I 161125 21:45:22 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 0.72ms
+[I 161125 21:45:22 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 0.70ms
+[I 161125 21:45:22 web:1946] 304 GET /static/css/ihome/profile.css (127.0.0.1) 0.69ms
+[I 161125 21:45:22 web:1946] 304 GET /static/js/ihome/auth.js (127.0.0.1) 1.54ms
+[E 161125 21:45:22 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 21:45:22 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161125 21:45:22 web:1946] 200 GET /api/auth (127.0.0.1) 1.71ms
+[I 161125 22:04:00 web:1946] 304 GET /auth.html (127.0.0.1) 1.94ms
+[I 161125 22:04:00 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.94ms
+[I 161125 22:04:00 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 1.91ms
+[I 161125 22:04:00 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 1.29ms
+[I 161125 22:04:00 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 0.82ms
+[I 161125 22:04:00 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 0.73ms
+[I 161125 22:04:00 web:1946] 304 GET /static/css/ihome/profile.css (127.0.0.1) 0.81ms
+[I 161125 22:04:00 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 3.23ms
+[I 161125 22:04:00 web:1946] 304 GET /static/js/jquery.form.min.js (127.0.0.1) 1.90ms
+[I 161125 22:04:00 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 1.88ms
+[I 161125 22:04:00 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 2.34ms
+[I 161125 22:04:00 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 0.98ms
+[I 161125 22:04:00 web:1946] 200 GET /static/js/ihome/auth.js (127.0.0.1) 1.00ms
+[E 161125 22:04:00 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 22:04:00 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161125 22:04:00 web:1946] 304 GET /api/auth (127.0.0.1) 1.55ms
+[I 161125 22:07:17 web:1946] 304 GET /static/js/ihome/my.js (127.0.0.1) 1.52ms
+[E 161125 22:07:18 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 22:07:18 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161125 22:07:18 web:1946] 200 GET /api/mymsg (127.0.0.1) 1.37ms
+[I 161125 22:07:20 web:1946] 304 GET /static/js/ihome/index.js (127.0.0.1) 11.53ms
+[W 161125 22:07:20 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 27.92ms
+[E 161125 22:07:21 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 22:07:21 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161125 22:07:21 web:1946] 200 GET /api/check_login (127.0.0.1) 1.90ms
+[I 161125 22:07:31 web:1946] 304 GET /static/js/ihome/login.js (127.0.0.1) 18.50ms
+[E 161125 22:07:43 login:18] 13863967948
+[E 161125 22:07:43 login:31] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_passwd': u'7c222fb2927d828af22f592134e8932480637c0d', 'up_user_id': 41L}
+[E 161125 22:07:43 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 22:07:43 session:38] 9e386e15bee8589fa25940e167593648
+[I 161125 22:07:43 web:1946] 200 POST /api/logindata (127.0.0.1) 260.94ms
+[I 161125 22:07:43 web:1946] 200 GET /api/check_login (127.0.0.1) 2.76ms
+[W 161125 22:07:44 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 0.83ms
+[E 161125 22:07:50 userCenter:13] 41
+[E 161125 22:07:50 userCenter:18] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_avatar': None}
+[I 161125 22:07:50 web:1946] 200 GET /api/mymsg (127.0.0.1) 3.71ms
+[I 161125 22:07:58 web:1946] 304 GET /static/js/ihome/profile.js (127.0.0.1) 1.14ms
+[E 161125 22:08:04 userCenter:13] 41
+[E 161125 22:08:04 userCenter:18] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_avatar': None}
+[I 161125 22:08:04 web:1946] 304 GET /api/mymsg (127.0.0.1) 2.47ms
+[I 161125 22:08:07 web:1946] 304 GET /static/js/ihome/auth.js (127.0.0.1) 0.98ms
+[E 161125 22:08:07 userCenter:44] {'up_id_card': None, 'up_real_name': None}
+[I 161125 22:08:07 web:1946] 200 GET /api/auth (127.0.0.1) 5.48ms
+[E 161125 22:08:11 userCenter:13] 41
+[E 161125 22:08:11 userCenter:18] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_avatar': None}
+[I 161125 22:08:11 web:1946] 304 GET /api/mymsg (127.0.0.1) 2.31ms
+[E 161125 22:08:16 userCenter:44] {'up_id_card': None, 'up_real_name': None}
+[I 161125 22:08:16 web:1946] 304 GET /api/auth (127.0.0.1) 8.11ms
+[E 161125 22:08:37 userCenter:13] 41
+[E 161125 22:08:37 userCenter:18] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_avatar': None}
+[I 161125 22:08:37 web:1946] 304 GET /api/mymsg (127.0.0.1) 9.86ms
+[I 161125 22:08:38 web:1946] 304 GET /api/check_login (127.0.0.1) 1.17ms
+[W 161125 22:08:38 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 0.97ms
+[E 161125 22:08:40 userCenter:13] 41
+[E 161125 22:08:40 userCenter:18] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_avatar': None}
+[I 161125 22:08:40 web:1946] 304 GET /api/mymsg (127.0.0.1) 20.81ms
+[I 161125 22:08:42 web:1946] 304 GET /api/logout (127.0.0.1) 1.29ms
+[E 161125 22:08:42 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 22:08:42 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161125 22:08:42 web:1946] 200 GET /api/check_login (127.0.0.1) 1.12ms
+[W 161125 22:08:42 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 0.93ms
+[I 161125 22:08:44 web:1946] 304 GET /register.html (127.0.0.1) 33.09ms
+[I 161125 22:08:44 web:1946] 304 GET /static/js/ihome/register.js (127.0.0.1) 14.56ms
+[I 161125 22:08:45 web:1946] 200 GET /api/imagecode?pcodeid=&codeid=3ed2a5e8-3d42-4a0a-a0c0-3884cf7df120 (127.0.0.1) 307.70ms
+[I 161125 22:08:52 web:1946] 200 POST /api/phoneCode (127.0.0.1) 0.81ms
+[E 161125 22:10:23 login:18] 13863967948
+[E 161125 22:10:23 login:31] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_passwd': u'7c222fb2927d828af22f592134e8932480637c0d', 'up_user_id': 41L}
+[E 161125 22:10:23 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 22:10:23 session:38] 9e386e15bee8589fa25940e167593648
+[I 161125 22:10:23 web:1946] 200 POST /api/logindata (127.0.0.1) 3.88ms
+[I 161125 22:10:24 web:1946] 200 GET /api/check_login (127.0.0.1) 1.14ms
+[W 161125 22:10:24 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 1.15ms
+[E 161125 22:10:26 userCenter:13] 41
+[E 161125 22:10:26 userCenter:18] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_avatar': None}
+[I 161125 22:10:26 web:1946] 304 GET /api/mymsg (127.0.0.1) 3.17ms
+[I 161125 22:10:28 web:1946] 304 GET /static/js/ihome/auth.js (127.0.0.1) 3.03ms
+[E 161125 22:10:28 userCenter:44] {'up_id_card': None, 'up_real_name': None}
+[I 161125 22:10:28 web:1946] 304 GET /api/auth (127.0.0.1) 3.06ms
+[I 161125 22:22:44 web:1946] 304 GET /auth.html (127.0.0.1) 1.37ms
+[I 161125 22:22:45 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.51ms
+[I 161125 22:22:45 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 35.78ms
+[I 161125 22:22:45 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 1.06ms
+[I 161125 22:22:45 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 1.11ms
+[I 161125 22:22:45 web:1946] 304 GET /static/css/ihome/profile.css (127.0.0.1) 1.53ms
+[I 161125 22:22:45 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.58ms
+[I 161125 22:22:45 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 0.98ms
+[I 161125 22:22:45 web:1946] 304 GET /static/js/jquery.form.min.js (127.0.0.1) 0.96ms
+[I 161125 22:22:45 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 14.70ms
+[I 161125 22:22:45 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 13.48ms
+[I 161125 22:22:45 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 1.40ms
+[I 161125 22:22:45 web:1946] 200 GET /static/js/ihome/auth.js (127.0.0.1) 1.88ms
+[E 161125 22:22:45 userCenter:44] {'up_id_card': None, 'up_real_name': None}
+[I 161125 22:22:45 web:1946] 304 GET /api/auth (127.0.0.1) 3.80ms
+[W 161125 22:22:52 web:1521] 403 POST /auth.html (127.0.0.1): '_xsrf' argument missing from POST
+[W 161125 22:22:52 web:1946] 403 POST /auth.html (127.0.0.1) 0.97ms
+[W 161125 22:23:18 web:1521] 403 POST /auth.html (127.0.0.1): '_xsrf' argument missing from POST
+[W 161125 22:23:18 web:1946] 403 POST /auth.html (127.0.0.1) 1.31ms
+[W 161125 22:23:27 web:1521] 403 POST /auth.html (127.0.0.1): '_xsrf' argument missing from POST
+[W 161125 22:23:27 web:1946] 403 POST /auth.html (127.0.0.1) 3.03ms
+[I 161125 22:27:21 web:1946] 304 GET /static/js/ihome/my.js (127.0.0.1) 2.70ms
+[E 161125 22:27:21 userCenter:13] 41
+[E 161125 22:27:21 userCenter:18] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_avatar': None}
+[I 161125 22:27:21 web:1946] 304 GET /api/mymsg (127.0.0.1) 7.81ms
+[I 161125 22:27:24 web:1946] 200 GET /static/js/ihome/auth.js (127.0.0.1) 11.14ms
+[E 161125 22:27:25 userCenter:44] {'up_id_card': None, 'up_real_name': None}
+[I 161125 22:27:25 web:1946] 304 GET /api/auth (127.0.0.1) 2.29ms
+[W 161125 22:27:28 web:1521] 403 POST /auth.html (127.0.0.1): '_xsrf' argument missing from POST
+[W 161125 22:27:28 web:1946] 403 POST /auth.html (127.0.0.1) 1.40ms
+[W 161125 22:28:39 web:1521] 403 POST /auth.html (127.0.0.1): '_xsrf' argument missing from POST
+[W 161125 22:28:39 web:1946] 403 POST /auth.html (127.0.0.1) 1.44ms
+[I 161125 22:29:53 autoreload:204] /home/python/Desktop/ihome/handlers/BaseHandler.py modified; restarting server
+[W 161125 22:29:56 web:1521] 403 POST /auth.html (127.0.0.1): '_xsrf' argument missing from POST
+[W 161125 22:29:56 web:1946] 403 POST /auth.html (127.0.0.1) 8.07ms
+[I 161125 22:31:44 autoreload:204] /home/python/Desktop/ihome/handlers/userCenter.py modified; restarting server
+[W 161125 22:31:47 web:1521] 403 POST /auth.html (127.0.0.1): '_xsrf' argument missing from POST
+[W 161125 22:31:47 web:1946] 403 POST /auth.html (127.0.0.1) 3.70ms
+[W 161125 22:31:55 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 1.53ms
+[E 161125 22:31:55 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 22:31:55 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161125 22:31:55 web:1946] 200 GET /api/check_login (127.0.0.1) 9.79ms
+[E 161125 22:32:08 login:18] 13863967948
+[E 161125 22:32:08 login:31] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_passwd': u'7c222fb2927d828af22f592134e8932480637c0d', 'up_user_id': 41L}
+[E 161125 22:32:08 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 22:32:08 session:38] 9e386e15bee8589fa25940e167593648
+[I 161125 22:32:08 web:1946] 200 POST /api/logindata (127.0.0.1) 19.41ms
+[I 161125 22:32:08 web:1946] 200 GET /api/check_login (127.0.0.1) 1.70ms
+[W 161125 22:32:09 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 1.24ms
+[E 161125 22:32:10 userCenter:13] 41
+[E 161125 22:32:10 userCenter:18] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_avatar': None}
+[I 161125 22:32:10 web:1946] 304 GET /api/mymsg (127.0.0.1) 4.20ms
+[I 161125 22:32:13 web:1946] 200 GET /static/js/ihome/auth.js (127.0.0.1) 9.49ms
+[E 161125 22:32:13 userCenter:44] {'up_id_card': None, 'up_real_name': None}
+[I 161125 22:32:13 web:1946] 304 GET /api/auth (127.0.0.1) 2.09ms
+[W 161125 22:32:16 web:1521] 403 POST /auth.html (127.0.0.1): '_xsrf' argument missing from POST
+[W 161125 22:32:16 web:1946] 403 POST /auth.html (127.0.0.1) 3.39ms
+[I 161125 22:32:50 autoreload:204] /home/python/Desktop/ihome/handlers/userCenter.py modified; restarting server
+[W 161125 22:34:44 web:1521] 403 POST /auth.html (127.0.0.1): '_xsrf' argument missing from POST
+[W 161125 22:34:44 web:1946] 403 POST /auth.html (127.0.0.1) 2.40ms
+[W 161125 22:34:45 web:1521] 403 POST /auth.html (127.0.0.1): '_xsrf' argument missing from POST
+[W 161125 22:34:45 web:1946] 403 POST /auth.html (127.0.0.1) 3.94ms
+[W 161125 22:34:46 web:1521] 403 POST /auth.html (127.0.0.1): '_xsrf' argument missing from POST
+[W 161125 22:34:46 web:1946] 403 POST /auth.html (127.0.0.1) 1.36ms
+[W 161125 22:43:30 web:1521] 403 POST /auth.html (127.0.0.1): '_xsrf' argument missing from POST
+[W 161125 22:43:30 web:1946] 403 POST /auth.html (127.0.0.1) 1.68ms
+[W 161125 22:43:32 web:1521] 403 POST /auth.html (127.0.0.1): '_xsrf' argument missing from POST
+[W 161125 22:43:32 web:1946] 403 POST /auth.html (127.0.0.1) 1.75ms
+[I 161125 22:46:42 web:1946] 304 GET /static/js/ihome/my.js (127.0.0.1) 7.32ms
+[E 161125 22:46:42 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 22:46:42 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161125 22:46:42 web:1946] 200 GET /api/mymsg (127.0.0.1) 1.81ms
+[I 161125 22:46:43 web:1946] 304 GET /static/js/ihome/index.js (127.0.0.1) 0.90ms
+[W 161125 22:46:44 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 8.62ms
+[E 161125 22:46:44 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 22:46:44 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161125 22:46:44 web:1946] 200 GET /api/check_login (127.0.0.1) 3.01ms
+[E 161125 22:46:52 login:18] 13863967948
+[E 161125 22:46:52 login:31] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_passwd': u'7c222fb2927d828af22f592134e8932480637c0d', 'up_user_id': 41L}
+[E 161125 22:46:52 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 22:46:52 session:38] 9e386e15bee8589fa25940e167593648
+[I 161125 22:46:52 web:1946] 200 POST /api/logindata (127.0.0.1) 47.16ms
+[I 161125 22:46:53 web:1946] 200 GET /api/check_login (127.0.0.1) 1.28ms
+[W 161125 22:46:53 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 1.55ms
+[E 161125 22:46:55 userCenter:13] 41
+[E 161125 22:46:55 userCenter:18] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_avatar': None}
+[I 161125 22:46:55 web:1946] 200 GET /api/mymsg (127.0.0.1) 31.17ms
+[I 161125 22:46:57 web:1946] 200 GET /static/js/ihome/auth.js (127.0.0.1) 1.23ms
+[E 161125 22:46:58 userCenter:44] {'up_id_card': None, 'up_real_name': None}
+[I 161125 22:46:58 web:1946] 304 GET /api/auth (127.0.0.1) 4.88ms
+[W 161125 22:47:00 web:1521] 403 POST /auth.html (127.0.0.1): '_xsrf' argument missing from POST
+[W 161125 22:47:00 web:1946] 403 POST /auth.html (127.0.0.1) 3.88ms
+[W 161125 22:54:36 web:1521] 403 POST /auth.html (127.0.0.1): '_xsrf' argument missing from POST
+[W 161125 22:54:36 web:1946] 403 POST /auth.html (127.0.0.1) 5.39ms
+[I 161125 22:54:41 web:1946] 200 GET /auth.html (127.0.0.1) 3.15ms
+[I 161125 22:54:42 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.61ms
+[I 161125 22:54:42 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 1.04ms
+[I 161125 22:54:42 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 1.17ms
+[I 161125 22:54:42 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 1.31ms
+[I 161125 22:54:42 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 1.06ms
+[I 161125 22:54:42 web:1946] 304 GET /static/css/ihome/profile.css (127.0.0.1) 1.39ms
+[I 161125 22:54:42 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.40ms
+[I 161125 22:54:42 web:1946] 304 GET /static/js/jquery.form.min.js (127.0.0.1) 1.52ms
+[I 161125 22:54:42 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 1.19ms
+[I 161125 22:54:42 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 1.56ms
+[I 161125 22:54:42 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 0.90ms
+[I 161125 22:54:42 web:1946] 200 GET /static/js/ihome/auth.js (127.0.0.1) 0.92ms
+[E 161125 22:54:42 userCenter:44] {'up_id_card': None, 'up_real_name': None}
+[I 161125 22:54:42 web:1946] 304 GET /api/auth (127.0.0.1) 3.46ms
+[I 161125 22:54:44 web:1946] 200 GET /auth.html?real_name=&id_card= (127.0.0.1) 4.92ms
+[I 161125 22:54:45 web:1946] 304 GET /static/js/ihome/auth.js (127.0.0.1) 1.13ms
+[E 161125 22:54:45 userCenter:44] {'up_id_card': None, 'up_real_name': None}
+[I 161125 22:54:45 web:1946] 304 GET /api/auth (127.0.0.1) 2.08ms
+[I 161125 23:00:35 web:1946] 200 GET /auth.html?real_name=&id_card= (127.0.0.1) 5.23ms
+[I 161125 23:00:35 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 4.21ms
+[I 161125 23:00:35 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 3.62ms
+[I 161125 23:00:35 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 0.91ms
+[I 161125 23:00:35 web:1946] 304 GET /static/css/ihome/profile.css (127.0.0.1) 0.87ms
+[I 161125 23:00:35 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.61ms
+[I 161125 23:00:35 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 2.43ms
+[I 161125 23:00:35 web:1946] 304 GET /static/js/jquery.form.min.js (127.0.0.1) 0.86ms
+[I 161125 23:00:35 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 1.30ms
+[I 161125 23:00:35 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 0.82ms
+[I 161125 23:00:35 web:1946] 200 GET /static/js/ihome/auth.js (127.0.0.1) 1.88ms
+[I 161125 23:00:35 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 1.09ms
+[I 161125 23:00:35 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 1.03ms
+[E 161125 23:00:36 userCenter:44] {'up_id_card': None, 'up_real_name': None}
+[I 161125 23:00:36 web:1946] 304 GET /api/auth (127.0.0.1) 5.28ms
+[I 161125 23:01:16 web:1946] 304 GET /auth.html?real_name=&id_card= (127.0.0.1) 1.49ms
+[I 161125 23:01:16 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.25ms
+[I 161125 23:01:16 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 1.09ms
+[I 161125 23:01:16 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 0.89ms
+[I 161125 23:01:16 web:1946] 304 GET /static/css/ihome/profile.css (127.0.0.1) 0.69ms
+[I 161125 23:01:16 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 0.90ms
+[I 161125 23:01:16 web:1946] 304 GET /static/js/jquery.form.min.js (127.0.0.1) 1.73ms
+[I 161125 23:01:16 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 0.86ms
+[I 161125 23:01:16 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 0.95ms
+[I 161125 23:01:16 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 0.76ms
+[I 161125 23:01:16 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 0.73ms
+[I 161125 23:01:16 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 0.98ms
+[I 161125 23:01:16 web:1946] 200 GET /static/js/ihome/auth.js (127.0.0.1) 3.52ms
+[E 161125 23:01:17 userCenter:44] {'up_id_card': None, 'up_real_name': None}
+[I 161125 23:01:17 web:1946] 304 GET /api/auth (127.0.0.1) 5.39ms
+[E 161125 23:01:20 web:1524] Uncaught exception POST /api/auth (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='POST', uri='/api/auth', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'http://127.0.0.1:8000', 'Content-Length': '19', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate', 'X-Xsrftoken': '2|35499804|f3184b67eb05d13017bdc4f847925545|1479975423', 'Host': '127.0.0.1:8000', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://127.0.0.1:8000/auth.html?real_name=&id_card=', 'Cookie': '_xsrf=2|35499804|f3184b67eb05d13017bdc4f847925545|1479975423; session_id="2|1:0|10:1480085212|10:session_id|44:OWUzODZlMTViZWU4NTg5ZmEyNTk0MGUxNjc1OTM2NDg=|08ff0092c402d87348895a8e7cf272c72fa7c9e94ac1d194f79b076ae3965191"', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'})
+    Traceback (most recent call last):
+      File "/home/python/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1443, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/python/Desktop/ihome/utils/common.py", line 11, in wrapper
+        fun(request_handler_obj, *args, **kwargs)
+      File "/home/python/Desktop/ihome/handlers/userCenter.py", line 54, in post
+        self.write(errno=RET.DATAERR)
+    TypeError: write() got an unexpected keyword argument 'errno'
+[E 161125 23:01:20 web:1946] 500 POST /api/auth (127.0.0.1) 2.22ms
+[I 161125 23:02:08 autoreload:204] /home/python/Desktop/ihome/handlers/userCenter.py modified; restarting server
+[I 161125 23:02:24 web:1946] 304 GET /auth.html?real_name=&id_card= (127.0.0.1) 7.83ms
+[I 161125 23:02:24 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 1.13ms
+[I 161125 23:02:24 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 1.05ms
+[I 161125 23:02:24 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 2.15ms
+[I 161125 23:02:24 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 2.25ms
+[I 161125 23:02:24 web:1946] 304 GET /static/css/ihome/profile.css (127.0.0.1) 4.22ms
+[I 161125 23:02:24 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.16ms
+[I 161125 23:02:24 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 1.00ms
+[I 161125 23:02:24 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 0.86ms
+[I 161125 23:02:24 web:1946] 304 GET /static/js/jquery.form.min.js (127.0.0.1) 0.96ms
+[I 161125 23:02:24 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 2.44ms
+[I 161125 23:02:24 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 1.03ms
+[I 161125 23:02:24 web:1946] 304 GET /static/js/ihome/auth.js (127.0.0.1) 1.37ms
+[E 161125 23:02:25 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 23:02:25 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161125 23:02:25 web:1946] 200 GET /api/auth (127.0.0.1) 5.66ms
+[E 161125 23:02:27 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 23:02:27 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161125 23:02:27 web:1946] 200 POST /api/auth (127.0.0.1) 1.93ms
+[E 161125 23:02:58 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 23:02:58 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161125 23:02:58 web:1946] 200 POST /api/auth (127.0.0.1) 1.67ms
+[E 161125 23:03:03 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 23:03:03 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161125 23:03:03 web:1946] 200 GET /api/mymsg (127.0.0.1) 3.47ms
+[E 161125 23:03:05 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 23:03:05 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161125 23:03:05 web:1946] 200 GET /api/check_login (127.0.0.1) 2.07ms
+[W 161125 23:03:05 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 2.46ms
+[E 161125 23:03:13 login:18] 13863967948
+[E 161125 23:03:13 login:31] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_passwd': u'7c222fb2927d828af22f592134e8932480637c0d', 'up_user_id': 41L}
+[E 161125 23:03:13 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 23:03:13 session:38] 9e386e15bee8589fa25940e167593648
+[I 161125 23:03:13 web:1946] 200 POST /api/logindata (127.0.0.1) 5.61ms
+[I 161125 23:03:14 web:1946] 200 GET /api/check_login (127.0.0.1) 1.39ms
+[W 161125 23:03:14 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 0.96ms
+[E 161125 23:03:16 userCenter:13] 41
+[E 161125 23:03:16 userCenter:18] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_avatar': None}
+[I 161125 23:03:16 web:1946] 200 GET /api/mymsg (127.0.0.1) 3.69ms
+[I 161125 23:03:17 web:1946] 200 GET /auth.html (127.0.0.1) 1.85ms
+[I 161125 23:03:17 web:1946] 304 GET /static/js/ihome/auth.js (127.0.0.1) 4.33ms
+[E 161125 23:03:18 userCenter:44] {'up_id_card': None, 'up_real_name': None}
+[I 161125 23:03:18 web:1946] 200 GET /api/auth (127.0.0.1) 5.60ms
+[I 161125 23:03:20 web:1946] 200 POST /api/auth (127.0.0.1) 1.07ms
+[I 161125 23:14:20 autoreload:204] /home/python/Desktop/ihome/handlers/userCenter.py modified; restarting server
+[I 161125 23:16:24 web:1946] 200 GET /auth.html (127.0.0.1) 11.29ms
+[I 161125 23:16:24 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 2.12ms
+[I 161125 23:16:24 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 10.21ms
+[I 161125 23:16:24 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 1.20ms
+[I 161125 23:16:24 web:1946] 304 GET /static/css/ihome/profile.css (127.0.0.1) 0.88ms
+[I 161125 23:16:24 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.19ms
+[I 161125 23:16:24 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 1.00ms
+[I 161125 23:16:24 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 71.69ms
+[I 161125 23:16:24 web:1946] 304 GET /static/js/jquery.form.min.js (127.0.0.1) 1.08ms
+[I 161125 23:16:24 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 5.72ms
+[I 161125 23:16:24 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 8.62ms
+[I 161125 23:16:24 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 2.51ms
+[I 161125 23:16:24 web:1946] 200 GET /static/js/ihome/auth.js (127.0.0.1) 1.79ms
+[E 161125 23:16:25 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 23:16:25 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161125 23:16:25 web:1946] 200 GET /api/auth (127.0.0.1) 2.07ms
+[E 161125 23:16:33 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 23:16:33 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161125 23:16:33 web:1946] 200 POST /api/auth (127.0.0.1) 1.36ms
+[I 161125 23:17:32 autoreload:204] /home/python/Desktop/ihome/handlers/userCenter.py modified; restarting server
+[I 161125 23:18:30 autoreload:204] /home/python/Desktop/ihome/handlers/userCenter.py modified; restarting server
+[I 161125 23:18:32 web:1946] 304 GET /auth.html (127.0.0.1) 6.05ms
+[I 161125 23:18:33 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.52ms
+[I 161125 23:18:33 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 5.08ms
+[I 161125 23:18:33 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 9.37ms
+[I 161125 23:18:33 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 2.50ms
+[I 161125 23:18:33 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 4.30ms
+[I 161125 23:18:33 web:1946] 304 GET /static/css/ihome/profile.css (127.0.0.1) 1.05ms
+[I 161125 23:18:33 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.84ms
+[I 161125 23:18:33 web:1946] 304 GET /static/js/jquery.form.min.js (127.0.0.1) 0.84ms
+[I 161125 23:18:33 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 1.01ms
+[I 161125 23:18:33 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 5.13ms
+[I 161125 23:18:33 web:1946] 200 GET /static/js/ihome/auth.js (127.0.0.1) 2.01ms
+[I 161125 23:18:33 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 0.82ms
+[E 161125 23:18:33 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 23:18:33 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161125 23:18:33 web:1946] 200 GET /api/auth (127.0.0.1) 2.67ms
+[E 161125 23:18:41 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 23:18:41 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161125 23:18:41 web:1946] 200 POST /api/auth (127.0.0.1) 2.47ms
+[E 161125 23:18:49 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 23:18:49 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161125 23:18:49 web:1946] 200 GET /api/check_login (127.0.0.1) 4.00ms
+[W 161125 23:18:49 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 4.50ms
+[E 161125 23:18:57 login:18] 13863967948
+[E 161125 23:18:57 login:31] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_passwd': u'7c222fb2927d828af22f592134e8932480637c0d', 'up_user_id': 41L}
+[E 161125 23:18:57 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 23:18:57 session:38] 9e386e15bee8589fa25940e167593648
+[I 161125 23:18:57 web:1946] 200 POST /api/logindata (127.0.0.1) 43.73ms
+[I 161125 23:18:58 web:1946] 200 GET /api/check_login (127.0.0.1) 1.30ms
+[W 161125 23:18:58 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 1.38ms
+[I 161125 23:19:00 web:1946] 304 GET /static/js/ihome/my.js (127.0.0.1) 1.76ms
+[E 161125 23:19:01 userCenter:13] 41
+[E 161125 23:19:01 userCenter:18] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_avatar': None}
+[I 161125 23:19:01 web:1946] 304 GET /api/mymsg (127.0.0.1) 4.88ms
+[I 161125 23:19:02 web:1946] 304 GET /auth.html (127.0.0.1) 1.15ms
+[I 161125 23:19:02 web:1946] 304 GET /static/js/ihome/auth.js (127.0.0.1) 0.89ms
+[E 161125 23:19:03 userCenter:44] {'up_id_card': None, 'up_real_name': None}
+[I 161125 23:19:03 web:1946] 200 GET /api/auth (127.0.0.1) 6.38ms
+[I 161125 23:20:37 web:1946] 200 POST /api/auth (127.0.0.1) 1.40ms
+[I 161125 23:21:23 web:1946] 200 POST /api/auth (127.0.0.1) 18.56ms
+[I 161125 23:21:43 web:1946] 304 GET /auth.html (127.0.0.1) 1.84ms
+[I 161125 23:21:43 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 4.70ms
+[I 161125 23:21:43 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 1.15ms
+[I 161125 23:21:43 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 1.12ms
+[I 161125 23:21:43 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 1.51ms
+[I 161125 23:21:43 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 1.13ms
+[I 161125 23:21:43 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 1.23ms
+[I 161125 23:21:43 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 3.27ms
+[I 161125 23:21:43 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.48ms
+[I 161125 23:21:43 web:1946] 304 GET /static/css/ihome/profile.css (127.0.0.1) 0.96ms
+[I 161125 23:21:43 web:1946] 304 GET /static/js/jquery.form.min.js (127.0.0.1) 0.88ms
+[I 161125 23:21:43 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 0.99ms
+[I 161125 23:21:43 web:1946] 200 GET /static/js/ihome/auth.js (127.0.0.1) 1.17ms
+[E 161125 23:21:44 userCenter:44] {'up_id_card': None, 'up_real_name': None}
+[I 161125 23:21:44 web:1946] 200 GET /api/auth (127.0.0.1) 6.26ms
+[I 161125 23:21:49 web:1946] 200 POST /api/auth (127.0.0.1) 1.07ms
+[I 161125 23:22:32 autoreload:204] /home/python/Desktop/ihome/handlers/userCenter.py modified; restarting server
+[I 161125 23:22:37 web:1946] 304 GET /auth.html (127.0.0.1) 12.34ms
+[I 161125 23:22:37 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 1.19ms
+[I 161125 23:22:37 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 2.03ms
+[I 161125 23:22:37 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 1.12ms
+[I 161125 23:22:37 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 1.06ms
+[I 161125 23:22:37 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 5.21ms
+[I 161125 23:22:37 web:1946] 304 GET /static/css/ihome/profile.css (127.0.0.1) 1.88ms
+[I 161125 23:22:37 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.03ms
+[I 161125 23:22:37 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 1.10ms
+[I 161125 23:22:37 web:1946] 304 GET /static/js/jquery.form.min.js (127.0.0.1) 2.17ms
+[I 161125 23:22:37 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 1.69ms
+[I 161125 23:22:37 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 0.88ms
+[I 161125 23:22:37 web:1946] 304 GET /static/js/ihome/auth.js (127.0.0.1) 4.91ms
+[E 161125 23:22:38 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 23:22:38 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161125 23:22:38 web:1946] 200 GET /api/auth (127.0.0.1) 6.43ms
+[E 161125 23:22:43 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 23:22:43 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161125 23:22:43 web:1946] 200 POST /api/auth (127.0.0.1) 1.65ms
+[E 161125 23:22:47 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 23:22:47 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161125 23:22:47 web:1946] 200 GET /api/mymsg (127.0.0.1) 6.05ms
+[E 161125 23:22:49 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 23:22:49 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161125 23:22:49 web:1946] 200 GET /api/check_login (127.0.0.1) 1.36ms
+[W 161125 23:22:49 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 2.43ms
+[E 161125 23:22:57 login:18] 13863967948
+[E 161125 23:22:57 login:31] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_passwd': u'7c222fb2927d828af22f592134e8932480637c0d', 'up_user_id': 41L}
+[E 161125 23:22:57 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 23:22:57 session:38] 9e386e15bee8589fa25940e167593648
+[I 161125 23:22:57 web:1946] 200 POST /api/logindata (127.0.0.1) 11.22ms
+[I 161125 23:22:57 web:1946] 200 GET /api/check_login (127.0.0.1) 2.75ms
+[W 161125 23:22:58 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 1.02ms
+[E 161125 23:22:59 userCenter:13] 41
+[E 161125 23:22:59 userCenter:18] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_avatar': None}
+[I 161125 23:22:59 web:1946] 200 GET /api/mymsg (127.0.0.1) 6.36ms
+[I 161125 23:23:01 web:1946] 304 GET /static/js/ihome/auth.js (127.0.0.1) 2.02ms
+[E 161125 23:23:01 userCenter:44] {'up_id_card': None, 'up_real_name': None}
+[I 161125 23:23:01 web:1946] 200 GET /api/auth (127.0.0.1) 2.97ms
+[E 161125 23:23:06 userCenter:56] 123
+[I 161125 23:23:06 web:1946] 200 POST /api/auth (127.0.0.1) 1.96ms
+[I 161125 23:24:59 autoreload:204] /home/python/Desktop/ihome/handlers/userCenter.py modified; restarting server
+[E 161125 23:25:02 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 23:25:02 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161125 23:25:02 web:1946] 200 POST /api/auth (127.0.0.1) 3.87ms
+[I 161125 23:25:07 web:1946] 304 GET /auth.html (127.0.0.1) 6.62ms
+[I 161125 23:25:08 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.66ms
+[I 161125 23:25:08 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 1.65ms
+[I 161125 23:25:08 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 1.06ms
+[I 161125 23:25:08 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 7.03ms
+[I 161125 23:25:08 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 1.51ms
+[I 161125 23:25:08 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 1.47ms
+[I 161125 23:25:08 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 1.29ms
+[I 161125 23:25:08 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 1.14ms
+[I 161125 23:25:08 web:1946] 304 GET /static/js/jquery.form.min.js (127.0.0.1) 0.93ms
+[I 161125 23:25:08 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.44ms
+[I 161125 23:25:08 web:1946] 304 GET /static/css/ihome/profile.css (127.0.0.1) 1.54ms
+[I 161125 23:25:08 web:1946] 304 GET /static/js/ihome/auth.js (127.0.0.1) 0.99ms
+[E 161125 23:25:08 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 23:25:08 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161125 23:25:08 web:1946] 200 GET /api/auth (127.0.0.1) 1.87ms
+[I 161125 23:25:12 web:1946] 304 GET /static/js/ihome/index.js (127.0.0.1) 2.01ms
+[W 161125 23:25:13 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 1.59ms
+[E 161125 23:25:13 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 23:25:13 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161125 23:25:13 web:1946] 200 GET /api/check_login (127.0.0.1) 4.74ms
+[E 161125 23:25:29 login:18] 13863967948
+[E 161125 23:25:29 login:31] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_passwd': u'7c222fb2927d828af22f592134e8932480637c0d', 'up_user_id': 41L}
+[I 161125 23:25:29 web:1946] 200 POST /api/logindata (127.0.0.1) 3.84ms
+[E 161125 23:25:35 login:18] 13863967948
+[E 161125 23:25:35 login:31] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_passwd': u'7c222fb2927d828af22f592134e8932480637c0d', 'up_user_id': 41L}
+[E 161125 23:25:35 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 23:25:35 session:38] 9e386e15bee8589fa25940e167593648
+[I 161125 23:25:35 web:1946] 200 POST /api/logindata (127.0.0.1) 6.01ms
+[I 161125 23:25:36 web:1946] 200 GET /api/check_login (127.0.0.1) 1.83ms
+[W 161125 23:25:36 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 1.01ms
+[E 161125 23:25:38 userCenter:13] 41
+[E 161125 23:25:38 userCenter:18] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_avatar': None}
+[I 161125 23:25:38 web:1946] 304 GET /api/mymsg (127.0.0.1) 7.15ms
+[I 161125 23:25:39 web:1946] 304 GET /static/js/ihome/auth.js (127.0.0.1) 2.55ms
+[E 161125 23:25:39 userCenter:44] {'up_id_card': None, 'up_real_name': None}
+[I 161125 23:25:39 web:1946] 200 GET /api/auth (127.0.0.1) 5.45ms
+[E 161125 23:25:45 userCenter:56] 123
+[I 161125 23:25:45 web:1946] 200 POST /api/auth (127.0.0.1) 4.18ms
+[I 161125 23:26:26 autoreload:204] /home/python/Desktop/ihome/handlers/userCenter.py modified; restarting server
+[I 161125 23:26:28 web:1946] 304 GET /auth.html (127.0.0.1) 3.92ms
+[I 161125 23:26:29 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 2.12ms
+[I 161125 23:26:29 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 1.29ms
+[I 161125 23:26:29 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 1.64ms
+[I 161125 23:26:29 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 0.96ms
+[I 161125 23:26:29 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 1.03ms
+[I 161125 23:26:29 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.64ms
+[I 161125 23:26:29 web:1946] 304 GET /static/css/ihome/profile.css (127.0.0.1) 2.24ms
+[I 161125 23:26:29 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 0.88ms
+[I 161125 23:26:29 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 1.36ms
+[I 161125 23:26:29 web:1946] 304 GET /static/js/ihome/auth.js (127.0.0.1) 1.01ms
+[I 161125 23:26:29 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 1.00ms
+[I 161125 23:26:29 web:1946] 304 GET /static/js/jquery.form.min.js (127.0.0.1) 2.44ms
+[E 161125 23:26:29 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 23:26:29 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161125 23:26:29 web:1946] 200 GET /api/auth (127.0.0.1) 1.96ms
+[E 161125 23:26:34 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 23:26:34 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161125 23:26:34 web:1946] 200 POST /api/auth (127.0.0.1) 1.86ms
+[E 161125 23:26:42 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 23:26:42 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161125 23:26:42 web:1946] 200 GET /api/check_login (127.0.0.1) 1.48ms
+[W 161125 23:26:42 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 2.88ms
+[E 161125 23:26:49 login:18] 13863967948
+[E 161125 23:26:49 login:31] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_passwd': u'7c222fb2927d828af22f592134e8932480637c0d', 'up_user_id': 41L}
+[E 161125 23:26:49 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 23:26:49 session:38] 9e386e15bee8589fa25940e167593648
+[I 161125 23:26:49 web:1946] 200 POST /api/logindata (127.0.0.1) 49.02ms
+[I 161125 23:26:50 web:1946] 200 GET /api/check_login (127.0.0.1) 2.62ms
+[W 161125 23:26:50 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 1.12ms
+[E 161125 23:26:52 userCenter:13] 41
+[E 161125 23:26:52 userCenter:18] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_avatar': None}
+[I 161125 23:26:52 web:1946] 304 GET /api/mymsg (127.0.0.1) 4.11ms
+[E 161125 23:26:54 userCenter:44] {'up_id_card': None, 'up_real_name': None}
+[I 161125 23:26:54 web:1946] 200 GET /api/auth (127.0.0.1) 3.57ms
+[E 161125 23:26:59 userCenter:56] 123
+[E 161125 23:26:59 userCenter:64] 
+[I 161125 23:26:59 web:1946] 200 POST /api/auth (127.0.0.1) 1.40ms
+[I 161125 23:27:47 autoreload:204] /home/python/Desktop/ihome/handlers/userCenter.py modified; restarting server
+[I 161125 23:27:51 web:1946] 304 GET /auth.html (127.0.0.1) 5.36ms
+[I 161125 23:27:51 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 2.52ms
+[I 161125 23:27:51 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 1.03ms
+[I 161125 23:27:51 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 1.41ms
+[I 161125 23:27:51 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 2.72ms
+[I 161125 23:27:51 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 1.16ms
+[I 161125 23:27:51 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 1.79ms
+[I 161125 23:27:51 web:1946] 304 GET /static/css/ihome/profile.css (127.0.0.1) 1.35ms
+[I 161125 23:27:51 web:1946] 304 GET /static/js/jquery.form.min.js (127.0.0.1) 1.15ms
+[I 161125 23:27:51 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.23ms
+[I 161125 23:27:51 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 3.07ms
+[I 161125 23:27:51 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 1.79ms
+[I 161125 23:27:51 web:1946] 304 GET /static/js/ihome/auth.js (127.0.0.1) 4.10ms
+[E 161125 23:27:51 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 23:27:51 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161125 23:27:51 web:1946] 200 GET /api/auth (127.0.0.1) 1.42ms
+[E 161125 23:27:55 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 23:27:55 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161125 23:27:55 web:1946] 200 POST /api/auth (127.0.0.1) 37.37ms
+[E 161125 23:28:00 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 23:28:00 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161125 23:28:00 web:1946] 200 GET /api/check_login (127.0.0.1) 1.37ms
+[W 161125 23:28:00 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 4.73ms
+[E 161125 23:28:08 login:18] 13863967948
+[E 161125 23:28:08 login:31] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_passwd': u'7c222fb2927d828af22f592134e8932480637c0d', 'up_user_id': 41L}
+[E 161125 23:28:08 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 23:28:08 session:38] 9e386e15bee8589fa25940e167593648
+[I 161125 23:28:08 web:1946] 200 POST /api/logindata (127.0.0.1) 5.78ms
+[I 161125 23:28:08 web:1946] 200 GET /api/check_login (127.0.0.1) 1.20ms
+[W 161125 23:28:08 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 1.12ms
+[E 161125 23:28:10 userCenter:13] 41
+[E 161125 23:28:10 userCenter:18] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_avatar': None}
+[I 161125 23:28:10 web:1946] 304 GET /api/mymsg (127.0.0.1) 6.46ms
+[E 161125 23:28:12 userCenter:44] {'up_id_card': None, 'up_real_name': None}
+[I 161125 23:28:12 web:1946] 200 GET /api/auth (127.0.0.1) 4.99ms
+[E 161125 23:28:16 userCenter:56] 123
+[E 161125 23:28:16 userCenter:64] 
+[I 161125 23:28:16 web:1946] 200 POST /api/auth (127.0.0.1) 1.58ms
+[E 161125 23:28:29 userCenter:56] 123
+[E 161125 23:28:29 userCenter:64] 123
+[I 161125 23:28:29 web:1946] 200 POST /api/auth (127.0.0.1) 1.34ms
+[I 161125 23:37:06 autoreload:204] /home/python/Desktop/ihome/handlers/userCenter.py modified; restarting server
+[I 161125 23:37:42 autoreload:204] /home/python/Desktop/ihome/handlers/userCenter.py modified; restarting server
+[I 161125 23:49:21 autoreload:204] /home/python/Desktop/ihome/handlers/userCenter.py modified; restarting server
+[I 161125 23:50:17 autoreload:204] /home/python/Desktop/ihome/handlers/userCenter.py modified; restarting server
+[I 161125 23:50:25 web:1946] 304 GET /auth.html (127.0.0.1) 38.57ms
+[I 161125 23:50:25 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 2.01ms
+[I 161125 23:50:25 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 1.48ms
+[I 161125 23:50:25 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 1.39ms
+[I 161125 23:50:25 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.44ms
+[I 161125 23:50:25 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 0.98ms
+[I 161125 23:50:25 web:1946] 304 GET /static/css/ihome/profile.css (127.0.0.1) 0.97ms
+[I 161125 23:50:25 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 1.32ms
+[I 161125 23:50:25 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 3.22ms
+[I 161125 23:50:25 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 0.92ms
+[I 161125 23:50:25 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 0.71ms
+[I 161125 23:50:25 web:1946] 304 GET /static/js/ihome/auth.js (127.0.0.1) 0.83ms
+[I 161125 23:50:25 web:1946] 304 GET /static/js/jquery.form.min.js (127.0.0.1) 1.45ms
+[E 161125 23:50:26 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 23:50:26 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161125 23:50:26 web:1946] 200 GET /api/auth (127.0.0.1) 11.36ms
+[E 161125 23:50:33 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 23:50:33 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161125 23:50:33 web:1946] 200 POST /api/auth (127.0.0.1) 2.05ms
+[I 161125 23:50:36 web:1946] 304 GET /static/js/ihome/my.js (127.0.0.1) 1.08ms
+[E 161125 23:50:37 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 23:50:37 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161125 23:50:37 web:1946] 200 GET /api/mymsg (127.0.0.1) 1.56ms
+[E 161125 23:50:39 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 23:50:39 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161125 23:50:39 web:1946] 200 GET /api/check_login (127.0.0.1) 3.91ms
+[W 161125 23:50:39 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 38.59ms
+[E 161125 23:50:50 login:18] 13863967948
+[E 161125 23:50:50 login:31] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_passwd': u'7c222fb2927d828af22f592134e8932480637c0d', 'up_user_id': 41L}
+[E 161125 23:50:50 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 23:50:50 session:38] 9e386e15bee8589fa25940e167593648
+[I 161125 23:50:50 web:1946] 200 POST /api/logindata (127.0.0.1) 29.35ms
+[I 161125 23:50:51 web:1946] 200 GET /api/check_login (127.0.0.1) 1.40ms
+[W 161125 23:50:51 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 0.96ms
+[E 161125 23:50:53 userCenter:13] 41
+[E 161125 23:50:53 userCenter:18] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_avatar': None}
+[I 161125 23:50:53 web:1946] 200 GET /api/mymsg (127.0.0.1) 5.69ms
+[E 161125 23:50:55 userCenter:44] {'up_id_card': None, 'up_real_name': None}
+[I 161125 23:50:55 web:1946] 200 GET /api/auth (127.0.0.1) 8.93ms
+[E 161125 23:51:03 userCenter:59] 123
+[E 161125 23:51:03 userCenter:68] 123456
+[E 161125 23:51:03 web:1524] Uncaught exception POST /api/auth (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='POST', uri='/api/auth', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'http://127.0.0.1:8000', 'Content-Length': '28', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate', 'X-Xsrftoken': '2|35499804|f3184b67eb05d13017bdc4f847925545|1479975423', 'Host': '127.0.0.1:8000', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://127.0.0.1:8000/auth.html', 'Cookie': '_xsrf=2|35499804|f3184b67eb05d13017bdc4f847925545|1479975423; session_id="2|1:0|10:1480089050|10:session_id|44:OWUzODZlMTViZWU4NTg5ZmEyNTk0MGUxNjc1OTM2NDg=|627659761101e239f55c26792a804ef2d0dd11dc9bcb66446a38ee4c46026600"', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'})
+    Traceback (most recent call last):
+      File "/home/python/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1443, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/python/Desktop/ihome/utils/common.py", line 11, in wrapper
+        fun(request_handler_obj, *args, **kwargs)
+      File "/home/python/Desktop/ihome/handlers/userCenter.py", line 74, in post
+        if re.match(r'^\d{18}$|^\d{17}(\d|X|x)$/',str(card)) == None and card != 123:
+    NameError: global name 're' is not defined
+[E 161125 23:51:03 web:1946] 500 POST /api/auth (127.0.0.1) 2.60ms
+[I 161125 23:51:23 autoreload:204] /home/python/Desktop/ihome/handlers/userCenter.py modified; restarting server
+[I 161125 23:51:30 web:1946] 304 GET /auth.html (127.0.0.1) 4.55ms
+[I 161125 23:51:30 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 1.21ms
+[I 161125 23:51:30 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 4.68ms
+[I 161125 23:51:30 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 2.50ms
+[I 161125 23:51:30 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 1.32ms
+[I 161125 23:51:30 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 1.63ms
+[I 161125 23:51:30 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 1.03ms
+[I 161125 23:51:30 web:1946] 304 GET /static/js/jquery.form.min.js (127.0.0.1) 0.89ms
+[I 161125 23:51:30 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.52ms
+[I 161125 23:51:30 web:1946] 304 GET /static/css/ihome/profile.css (127.0.0.1) 1.19ms
+[I 161125 23:51:31 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 1.12ms
+[I 161125 23:51:31 web:1946] 304 GET /static/js/ihome/auth.js (127.0.0.1) 1.80ms
+[I 161125 23:51:31 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 2.05ms
+[E 161125 23:51:31 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 23:51:31 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161125 23:51:31 web:1946] 200 GET /api/auth (127.0.0.1) 2.93ms
+[E 161125 23:51:38 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 23:51:38 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161125 23:51:38 web:1946] 200 POST /api/auth (127.0.0.1) 2.03ms
+[E 161125 23:51:42 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 23:51:42 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161125 23:51:42 web:1946] 200 GET /api/mymsg (127.0.0.1) 2.80ms
+[E 161125 23:51:44 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 23:51:44 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161125 23:51:44 web:1946] 200 GET /api/check_login (127.0.0.1) 7.33ms
+[W 161125 23:51:45 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 4.29ms
+[E 161125 23:51:53 login:18] 13863967948
+[E 161125 23:51:53 login:31] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_passwd': u'7c222fb2927d828af22f592134e8932480637c0d', 'up_user_id': 41L}
+[E 161125 23:51:53 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 23:51:53 session:38] 9e386e15bee8589fa25940e167593648
+[I 161125 23:51:53 web:1946] 200 POST /api/logindata (127.0.0.1) 233.93ms
+[I 161125 23:51:54 web:1946] 200 GET /api/check_login (127.0.0.1) 1.67ms
+[W 161125 23:51:54 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 1.21ms
+[E 161125 23:51:56 userCenter:14] 41
+[E 161125 23:51:56 userCenter:19] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_avatar': None}
+[I 161125 23:51:56 web:1946] 200 GET /api/mymsg (127.0.0.1) 25.78ms
+[E 161125 23:51:58 userCenter:45] {'up_id_card': None, 'up_real_name': None}
+[I 161125 23:51:58 web:1946] 200 GET /api/auth (127.0.0.1) 2.88ms
+[E 161125 23:52:04 userCenter:60] 123
+[E 161125 23:52:04 userCenter:69] 1234
+[I 161125 23:52:04 web:1946] 200 POST /api/auth (127.0.0.1) 1.91ms
+[E 161125 23:52:09 userCenter:60] 123
+[E 161125 23:52:09 userCenter:69] 12345
+[I 161125 23:52:09 web:1946] 200 POST /api/auth (127.0.0.1) 1.71ms
+[E 161125 23:52:15 userCenter:60] 123
+[E 161125 23:52:15 userCenter:69] 123
+[I 161125 23:52:15 web:1946] 200 POST /api/auth (127.0.0.1) 1.78ms
+[I 161125 23:52:30 autoreload:204] /home/python/Desktop/ihome/handlers/userCenter.py modified; restarting server
+[E 161125 23:52:33 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 23:52:33 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161125 23:52:33 web:1946] 200 POST /api/auth (127.0.0.1) 5.04ms
+[I 161125 23:55:51 web:1946] 304 GET /auth.html (127.0.0.1) 7.33ms
+[I 161125 23:55:51 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 1.09ms
+[I 161125 23:55:51 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 0.87ms
+[I 161125 23:55:51 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 1.02ms
+[I 161125 23:55:51 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 0.86ms
+[I 161125 23:55:51 web:1946] 304 GET /static/js/jquery.form.min.js (127.0.0.1) 1.17ms
+[I 161125 23:55:51 web:1946] 304 GET /static/css/ihome/profile.css (127.0.0.1) 2.07ms
+[I 161125 23:55:51 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 2.05ms
+[I 161125 23:55:51 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 1.76ms
+[I 161125 23:55:51 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.18ms
+[I 161125 23:55:51 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 2.61ms
+[I 161125 23:55:51 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 0.93ms
+[I 161125 23:55:51 web:1946] 200 GET /static/js/ihome/auth.js (127.0.0.1) 2.91ms
+[W 161125 23:56:01 web:1521] 403 POST /auth.html (127.0.0.1): '_xsrf' argument missing from POST
+[W 161125 23:56:01 web:1946] 403 POST /auth.html (127.0.0.1) 2.37ms
+[E 161125 23:57:04 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 23:57:04 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161125 23:57:04 web:1946] 200 GET /api/check_login (127.0.0.1) 4.15ms
+[W 161125 23:57:04 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 1.79ms
+[E 161125 23:57:13 login:18] 13863967948
+[E 161125 23:57:13 login:31] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_passwd': u'7c222fb2927d828af22f592134e8932480637c0d', 'up_user_id': 41L}
+[E 161125 23:57:13 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161125 23:57:13 session:38] 9e386e15bee8589fa25940e167593648
+[I 161125 23:57:13 web:1946] 200 POST /api/logindata (127.0.0.1) 4.03ms
+[I 161125 23:57:14 web:1946] 200 GET /api/check_login (127.0.0.1) 6.27ms
+[W 161125 23:57:14 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 6.94ms
+[E 161125 23:57:16 userCenter:14] 41
+[E 161125 23:57:16 userCenter:19] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_avatar': None}
+[I 161125 23:57:16 web:1946] 304 GET /api/mymsg (127.0.0.1) 4.88ms
+[I 161125 23:57:18 web:1946] 304 GET /static/js/ihome/auth.js (127.0.0.1) 1.76ms
+[I 161125 23:58:01 web:1946] 304 GET /auth.html (127.0.0.1) 1.66ms
+[I 161125 23:58:01 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 1.17ms
+[I 161125 23:58:01 web:1946] 304 GET /static/css/ihome/profile.css (127.0.0.1) 1.01ms
+[I 161125 23:58:01 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 1.11ms
+[I 161125 23:58:01 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 0.95ms
+[I 161125 23:58:01 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 1.08ms
+[I 161125 23:58:01 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.70ms
+[I 161125 23:58:01 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.85ms
+[I 161125 23:58:01 web:1946] 304 GET /static/js/jquery.form.min.js (127.0.0.1) 0.96ms
+[I 161125 23:58:01 web:1946] 200 GET /static/js/ihome/auth.js (127.0.0.1) 4.89ms
+[I 161125 23:58:01 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 1.39ms
+[I 161125 23:58:01 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 1.05ms
+[I 161125 23:58:01 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 1.00ms
+[E 161125 23:58:01 userCenter:45] {'up_id_card': None, 'up_real_name': None}
+[I 161125 23:58:01 web:1946] 200 GET /api/auth (127.0.0.1) 3.15ms
+[E 161125 23:58:10 userCenter:60] 123
+[E 161125 23:58:10 userCenter:69] 1234
+[I 161125 23:58:10 web:1946] 200 POST /api/auth (127.0.0.1) 2.00ms
+[I 161126 00:05:24 autoreload:204] /home/python/Desktop/ihome/handlers/userCenter.py modified; restarting server
+[I 161126 00:08:50 web:1946] 304 GET / (127.0.0.1) 45.83ms
+[I 161126 00:08:50 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.87ms
+[I 161126 00:08:50 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 1.21ms
+[I 161126 00:08:50 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 0.81ms
+[I 161126 00:08:50 web:1946] 304 GET /static/plugins/swiper/css/swiper.min.css (127.0.0.1) 36.26ms
+[I 161126 00:08:50 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 6.49ms
+[I 161126 00:08:50 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 0.93ms
+[I 161126 00:08:51 web:1946] 304 GET /static/css/ihome/index.css (127.0.0.1) 12.76ms
+[I 161126 00:08:51 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.29ms
+[I 161126 00:08:51 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 1.00ms
+[I 161126 00:08:51 web:1946] 304 GET /static/plugins/swiper/js/swiper.jquery.min.js (127.0.0.1) 9.70ms
+[I 161126 00:08:51 web:1946] 304 GET /static/js/template.js (127.0.0.1) 7.23ms
+[I 161126 00:08:51 web:1946] 304 GET /static/js/ihome/index.js (127.0.0.1) 13.23ms
+[I 161126 00:08:51 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 0.98ms
+[I 161126 00:08:51 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 1.17ms
+[I 161126 00:08:51 web:1946] 304 GET /static/images/logo@128x59.png (127.0.0.1) 29.45ms
+[I 161126 00:08:51 web:1946] 304 GET /static/images/home03.jpg (127.0.0.1) 31.09ms
+[I 161126 00:08:51 web:1946] 304 GET /static/images/home02.jpg (127.0.0.1) 46.48ms
+[I 161126 00:08:51 web:1946] 304 GET /static/images/home01.jpg (127.0.0.1) 12.21ms
+[I 161126 00:08:51 web:1946] 304 GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 (127.0.0.1) 34.93ms
+[E 161126 00:08:51 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161126 00:08:51 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161126 00:08:51 web:1946] 200 GET /api/check_login (127.0.0.1) 2.39ms
+[W 161126 00:08:51 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 16.65ms
+[E 161126 00:08:59 login:18] 13863967948
+[E 161126 00:08:59 login:31] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_passwd': u'7c222fb2927d828af22f592134e8932480637c0d', 'up_user_id': 41L}
+[E 161126 00:08:59 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161126 00:08:59 session:38] 9e386e15bee8589fa25940e167593648
+[I 161126 00:08:59 web:1946] 200 POST /api/logindata (127.0.0.1) 41.41ms
+[I 161126 00:09:00 web:1946] 200 GET /api/check_login (127.0.0.1) 17.88ms
+[W 161126 00:09:00 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 0.99ms
+[E 161126 00:09:02 userCenter:14] 41
+[E 161126 00:09:02 userCenter:19] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_avatar': None}
+[I 161126 00:09:02 web:1946] 304 GET /api/mymsg (127.0.0.1) 5.71ms
+[I 161126 00:09:04 web:1946] 304 GET /auth.html (127.0.0.1) 1.43ms
+[I 161126 00:09:05 web:1946] 304 GET /static/js/ihome/auth.js (127.0.0.1) 1.59ms
+[E 161126 00:09:05 userCenter:45] {'up_id_card': None, 'up_real_name': None}
+[I 161126 00:09:05 web:1946] 200 GET /api/auth (127.0.0.1) 2.23ms
+[E 161126 00:09:34 userCenter:60] 李飞
+[E 161126 00:09:34 web:1524] Uncaught exception POST /api/auth (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='POST', uri='/api/auth', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'http://127.0.0.1:8000', 'Content-Length': '55', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate', 'X-Xsrftoken': '2|35499804|f3184b67eb05d13017bdc4f847925545|1479975423', 'Host': '127.0.0.1:8000', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://127.0.0.1:8000/auth.html', 'Cookie': '_xsrf=2|35499804|f3184b67eb05d13017bdc4f847925545|1479975423; session_id="2|1:0|10:1480090139|10:session_id|44:OWUzODZlMTViZWU4NTg5ZmEyNTk0MGUxNjc1OTM2NDg=|26c09d841e2b4b0086752bf2b76168898c3ba97bf34987788e2c1f5aeaaf22fd"', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'})
+    Traceback (most recent call last):
+      File "/home/python/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1443, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/python/Desktop/ihome/utils/common.py", line 11, in wrapper
+        fun(request_handler_obj, *args, **kwargs)
+      File "/home/python/Desktop/ihome/handlers/userCenter.py", line 64, in post
+        if str(name) == "":
+    UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-1: ordinal not in range(128)
+[E 161126 00:09:34 web:1946] 500 POST /api/auth (127.0.0.1) 2.47ms
+[I 161126 00:10:24 autoreload:204] /home/python/Desktop/ihome/handlers/userCenter.py modified; restarting server
+[I 161126 00:10:26 web:1946] 304 GET /auth.html (127.0.0.1) 4.98ms
+[I 161126 00:10:27 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 1.19ms
+[I 161126 00:10:27 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 1.67ms
+[I 161126 00:10:27 web:1946] 304 GET /static/css/ihome/profile.css (127.0.0.1) 2.33ms
+[I 161126 00:10:27 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.50ms
+[I 161126 00:10:27 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 1.15ms
+[I 161126 00:10:27 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 8.45ms
+[I 161126 00:10:27 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 1.47ms
+[I 161126 00:10:27 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 1.06ms
+[I 161126 00:10:27 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 0.98ms
+[I 161126 00:10:27 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.07ms
+[I 161126 00:10:27 web:1946] 304 GET /static/js/jquery.form.min.js (127.0.0.1) 1.56ms
+[I 161126 00:10:27 web:1946] 304 GET /static/js/ihome/auth.js (127.0.0.1) 0.96ms
+[E 161126 00:10:27 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161126 00:10:27 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161126 00:10:27 web:1946] 200 GET /api/auth (127.0.0.1) 1.80ms
+[E 161126 00:10:36 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161126 00:10:36 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161126 00:10:36 web:1946] 200 POST /api/auth (127.0.0.1) 1.78ms
+[E 161126 00:10:40 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161126 00:10:40 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161126 00:10:40 web:1946] 200 GET /api/mymsg (127.0.0.1) 3.78ms
+[E 161126 00:10:43 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161126 00:10:43 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161126 00:10:43 web:1946] 200 GET /api/check_login (127.0.0.1) 4.38ms
+[W 161126 00:10:43 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 2.05ms
+[E 161126 00:10:55 login:18] 13863967948
+[E 161126 00:10:55 login:31] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_passwd': u'7c222fb2927d828af22f592134e8932480637c0d', 'up_user_id': 41L}
+[E 161126 00:10:55 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161126 00:10:55 session:38] 9e386e15bee8589fa25940e167593648
+[I 161126 00:10:55 web:1946] 200 POST /api/logindata (127.0.0.1) 8.38ms
+[I 161126 00:10:56 web:1946] 200 GET /api/check_login (127.0.0.1) 1.74ms
+[W 161126 00:10:56 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 1.59ms
+[E 161126 00:10:58 userCenter:14] 41
+[E 161126 00:10:58 userCenter:19] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_avatar': None}
+[I 161126 00:10:58 web:1946] 200 GET /api/mymsg (127.0.0.1) 8.13ms
+[E 161126 00:11:00 userCenter:45] {'up_id_card': None, 'up_real_name': None}
+[I 161126 00:11:00 web:1946] 200 GET /api/auth (127.0.0.1) 5.57ms
+[E 161126 00:11:07 userCenter:60] 1234
+[E 161126 00:11:07 userCenter:69] 140645199205241234
+[I 161126 00:11:07 web:1946] 200 POST /api/auth (127.0.0.1) 354.91ms
+[E 161126 00:12:00 userCenter:14] 41
+[E 161126 00:12:00 userCenter:19] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_avatar': None}
+[I 161126 00:12:00 web:1946] 304 GET /api/mymsg (127.0.0.1) 6.31ms
+[I 161126 00:12:04 web:1946] 304 GET /my.html (127.0.0.1) 30.95ms
+[I 161126 00:12:04 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.34ms
+[I 161126 00:12:04 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 0.87ms
+[I 161126 00:12:04 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 1.04ms
+[I 161126 00:12:04 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 2.39ms
+[I 161126 00:12:04 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 0.83ms
+[I 161126 00:12:04 web:1946] 304 GET /static/css/ihome/my.css (127.0.0.1) 2.02ms
+[I 161126 00:12:04 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 2.92ms
+[I 161126 00:12:04 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 3.93ms
+[I 161126 00:12:04 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.55ms
+[I 161126 00:12:04 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 0.80ms
+[I 161126 00:12:04 web:1946] 200 GET /static/js/ihome/my.js (127.0.0.1) 0.96ms
+[E 161126 00:12:04 userCenter:14] 41
+[E 161126 00:12:04 userCenter:19] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_avatar': None}
+[I 161126 00:12:04 web:1946] 304 GET /api/mymsg (127.0.0.1) 3.50ms
+[I 161126 00:12:06 web:1946] 304 GET /static/js/ihome/auth.js (127.0.0.1) 1.30ms
+[E 161126 00:12:06 userCenter:45] {'up_id_card': u'140645199205241234', 'up_real_name': u'1234'}
+[I 161126 00:12:06 web:1946] 200 GET /api/auth (127.0.0.1) 2.91ms
+[I 161126 00:16:04 autoreload:204] /home/python/Desktop/ihome/handlers/userCenter.py modified; restarting server
+[I 161126 00:16:36 web:1946] 304 GET /static/js/ihome/my.js (127.0.0.1) 20.62ms
+[E 161126 00:16:37 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161126 00:16:37 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161126 00:16:37 web:1946] 200 GET /api/mymsg (127.0.0.1) 12.41ms
+[E 161126 00:16:39 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161126 00:16:39 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161126 00:16:39 web:1946] 200 GET /api/check_login (127.0.0.1) 4.87ms
+[W 161126 00:16:39 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 64.46ms
+[I 161126 00:16:42 web:1946] 304 GET /static/css/ihome/register.css (127.0.0.1) 50.37ms
+[I 161126 00:16:43 web:1946] 200 GET /api/imagecode?pcodeid=&codeid=6aa4818c-6638-48c2-b0bd-d8e831ca51b4 (127.0.0.1) 313.35ms
+[I 161126 00:16:53 web:1946] 200 POST /api/phoneCode (127.0.0.1) 0.85ms
+[E 161126 00:17:01 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161126 00:17:01 session:38] 9e386e15bee8589fa25940e167593648
+[E 161126 00:17:01 register:62] {'mobile': u'13863967948', 'user_id': 42L, 'name': u'13863967948'}
+[I 161126 00:17:01 web:1946] 200 POST /api/submitdata (127.0.0.1) 59.16ms
+[E 161126 00:17:13 login:18] 13863967948
+[E 161126 00:17:13 login:31] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_passwd': u'7c222fb2927d828af22f592134e8932480637c0d', 'up_user_id': 42L}
+[I 161126 00:17:13 web:1946] 200 POST /api/logindata (127.0.0.1) 3.45ms
+[I 161126 00:17:14 web:1946] 200 GET /api/check_login (127.0.0.1) 2.40ms
+[W 161126 00:17:14 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 2.45ms
+[E 161126 00:17:16 userCenter:14] 42
+[E 161126 00:17:16 userCenter:19] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_avatar': None}
+[I 161126 00:17:16 web:1946] 200 GET /api/mymsg (127.0.0.1) 3.01ms
+[I 161126 00:17:18 web:1946] 304 GET /auth.html (127.0.0.1) 37.29ms
+[I 161126 00:17:18 web:1946] 304 GET /static/js/ihome/auth.js (127.0.0.1) 0.90ms
+[E 161126 00:17:19 userCenter:45] {'up_id_card': None, 'up_real_name': None}
+[I 161126 00:17:19 web:1946] 200 GET /api/auth (127.0.0.1) 2.08ms
+[E 161126 00:17:30 userCenter:60] 李飞
+[E 161126 00:17:30 userCenter:69] 140645199205241234
+[I 161126 00:17:30 web:1946] 200 POST /api/auth (127.0.0.1) 26.62ms
+[I 161126 00:17:35 web:1946] 304 GET /static/js/ihome/my.js (127.0.0.1) 2.30ms
+[E 161126 00:17:35 userCenter:14] 42
+[E 161126 00:17:35 userCenter:19] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_avatar': None}
+[I 161126 00:17:35 web:1946] 304 GET /api/mymsg (127.0.0.1) 3.09ms
+[E 161126 00:17:38 userCenter:45] {'up_id_card': u'140645199205241234', 'up_real_name': u'\u674e\u98de'}
+[I 161126 00:17:38 web:1946] 200 GET /api/auth (127.0.0.1) 7.41ms
+[I 161126 00:19:21 web:1946] 304 GET /static/js/ihome/my.js (127.0.0.1) 1.14ms
+[E 161126 00:19:22 userCenter:14] 42
+[E 161126 00:19:22 userCenter:19] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_avatar': None}
+[I 161126 00:19:22 web:1946] 304 GET /api/mymsg (127.0.0.1) 5.41ms
+[I 161126 00:19:24 web:1946] 304 GET /static/js/ihome/profile.js (127.0.0.1) 8.44ms
+[E 161126 00:19:35 web:1524] Uncaught exception POST /api/profile/avatar (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='POST', uri='/api/profile/avatar', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'http://127.0.0.1:8000', 'Content-Length': '137', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate', 'X-Xsrftoken': '2|35499804|f3184b67eb05d13017bdc4f847925545|1479975423', 'Host': '127.0.0.1:8000', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://127.0.0.1:8000/profile.html', 'Cookie': '_xsrf=2|35499804|f3184b67eb05d13017bdc4f847925545|1479975423; session_id="2|1:0|10:1480090633|10:session_id|44:OWUzODZlMTViZWU4NTg5ZmEyNTk0MGUxNjc1OTM2NDg=|9838849e4ea01ec58aec0f75090e1dceb22380675e82e8ed3bb6e97932f5bc67"', 'Content-Type': 'multipart/form-data; boundary=----WebKitFormBoundaryskaLE7QfBGJdxVKx'})
+    Traceback (most recent call last):
+      File "/home/python/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1443, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/python/Desktop/ihome/utils/common.py", line 11, in wrapper
+        fun(request_handler_obj, *args, **kwargs)
+      File "/home/python/Desktop/ihome/handlers/profile.py", line 17, in post
+        logging.error(e)
+    NameError: global name 'logging' is not defined
+[E 161126 00:19:35 web:1946] 500 POST /api/profile/avatar (127.0.0.1) 20.06ms
+[I 161126 00:30:58 autoreload:204] /home/python/Desktop/ihome/handlers/profile.py modified; restarting server
+[I 161126 00:31:44 web:1946] 304 GET /profile.html (127.0.0.1) 15.55ms
+[I 161126 00:31:44 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 3.23ms
+[I 161126 00:31:44 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 0.66ms
+[I 161126 00:31:44 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 3.69ms
+[I 161126 00:31:44 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 0.92ms
+[I 161126 00:31:44 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 2.24ms
+[I 161126 00:31:44 web:1946] 304 GET /static/css/ihome/profile.css (127.0.0.1) 22.51ms
+[I 161126 00:31:44 web:1946] 304 GET /static/js/jquery.form.min.js (127.0.0.1) 12.68ms
+[I 161126 00:31:44 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 1.24ms
+[I 161126 00:31:44 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 0.92ms
+[I 161126 00:31:44 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 0.84ms
+[I 161126 00:31:44 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.62ms
+[I 161126 00:31:44 web:1946] 200 GET /static/js/ihome/profile.js (127.0.0.1) 1.83ms
+[I 161126 00:31:44 web:1946] 304 GET /profile.html (127.0.0.1) 1.51ms
+[I 161126 00:31:45 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 2.15ms
+[E 161126 00:31:45 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161126 00:31:45 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161126 00:31:45 web:1946] 200 GET /api/profile/avatar (127.0.0.1) 3.29ms
+[I 161126 00:31:52 web:1946] 304 GET /static/js/ihome/my.js (127.0.0.1) 1.55ms
+[E 161126 00:31:52 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161126 00:31:52 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161126 00:31:52 web:1946] 200 GET /api/mymsg (127.0.0.1) 4.03ms
+[E 161126 00:31:54 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161126 00:31:54 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161126 00:31:54 web:1946] 200 GET /api/check_login (127.0.0.1) 2.06ms
+[W 161126 00:31:55 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 6.92ms
+[E 161126 00:32:03 login:18] 13863967948
+[E 161126 00:32:03 login:31] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_passwd': u'7c222fb2927d828af22f592134e8932480637c0d', 'up_user_id': 42L}
+[E 161126 00:32:03 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161126 00:32:03 session:38] 9e386e15bee8589fa25940e167593648
+[I 161126 00:32:03 web:1946] 200 POST /api/logindata (127.0.0.1) 16.25ms
+[I 161126 00:32:04 web:1946] 200 GET /api/check_login (127.0.0.1) 6.72ms
+[W 161126 00:32:04 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 1.99ms
+[E 161126 00:32:06 userCenter:14] 42
+[E 161126 00:32:06 userCenter:19] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_avatar': None}
+[I 161126 00:32:06 web:1946] 200 GET /api/mymsg (127.0.0.1) 2.47ms
+[E 161126 00:32:08 web:1524] Uncaught exception GET /api/profile/avatar (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/profile/avatar', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, sdch', 'X-Requested-With': 'XMLHttpRequest', 'Host': '127.0.0.1:8000', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36', 'Connection': 'keep-alive', 'Referer': 'http://127.0.0.1:8000/profile.html', 'Cookie': '_xsrf=2|35499804|f3184b67eb05d13017bdc4f847925545|1479975423; session_id="2|1:0|10:1480091523|10:session_id|44:OWUzODZlMTViZWU4NTg5ZmEyNTk0MGUxNjc1OTM2NDg=|b7ba844cb385baf419380ddc33c8556f809647cfb000e6545276138cc5271776"', 'If-None-Match': '"5653c60f8deb4041a81ae97fe57b1b9fc89f4f2d"'})
+    Traceback (most recent call last):
+      File "/home/python/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1443, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/python/Desktop/ihome/utils/common.py", line 11, in wrapper
+        fun(request_handler_obj, *args, **kwargs)
+      File "/home/python/Desktop/ihome/handlers/profile.py", line 44, in get
+        logging.error(e)
+    NameError: global name 'logging' is not defined
+[E 161126 00:32:08 web:1946] 500 GET /api/profile/avatar (127.0.0.1) 5.14ms
+[I 161126 00:32:28 autoreload:204] /home/python/Desktop/ihome/handlers/profile.py modified; restarting server
+[I 161126 00:32:33 web:1946] 304 GET /profile.html (127.0.0.1) 4.20ms
+[I 161126 00:32:33 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 2.00ms
+[I 161126 00:32:33 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 1.05ms
+[I 161126 00:32:33 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 3.24ms
+[I 161126 00:32:33 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 2.11ms
+[I 161126 00:32:33 web:1946] 304 GET /static/css/ihome/profile.css (127.0.0.1) 3.24ms
+[I 161126 00:32:33 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 0.99ms
+[I 161126 00:32:33 web:1946] 304 GET /static/js/jquery.form.min.js (127.0.0.1) 0.84ms
+[I 161126 00:32:33 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 0.97ms
+[I 161126 00:32:33 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 1.12ms
+[I 161126 00:32:33 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 1.39ms
+[I 161126 00:32:33 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 1.05ms
+[I 161126 00:32:33 web:1946] 304 GET /static/js/ihome/profile.js (127.0.0.1) 0.89ms
+[E 161126 00:32:33 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161126 00:32:33 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161126 00:32:33 web:1946] 200 GET /api/profile/avatar (127.0.0.1) 1.99ms
+[E 161126 00:32:41 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161126 00:32:41 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161126 00:32:41 web:1946] 200 POST /api/profile/avatar (127.0.0.1) 1.83ms
+[I 161126 08:28:19 web:1946] 304 GET /static/js/ihome/index.js (127.0.0.1) 111.61ms
+[E 161126 08:28:19 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161126 08:28:19 session:38] 4ebd020883285d698c44ec50939c0967
+[E 161126 08:28:19 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161126 08:28:19 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161126 08:28:19 web:1946] 200 GET /api/check_login (127.0.0.1) 2.46ms
+[W 161126 08:28:23 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 43.07ms
+[I 161126 08:28:25 web:1946] 304 GET /static/js/ihome/login.js (127.0.0.1) 34.65ms
+[E 161126 08:28:37 login:18] 13863967948
+[E 161126 08:28:37 login:31] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_passwd': u'7c222fb2927d828af22f592134e8932480637c0d', 'up_user_id': 42L}
+[E 161126 08:28:37 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161126 08:28:37 session:38] 9e386e15bee8589fa25940e167593648
+[I 161126 08:28:37 web:1946] 200 POST /api/logindata (127.0.0.1) 87.45ms
+[I 161126 08:28:37 web:1946] 304 GET /index.html (127.0.0.1) 8.33ms
+[W 161126 08:28:37 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 1.00ms
+[I 161126 08:28:37 web:1946] 200 GET /api/check_login (127.0.0.1) 1.21ms
+[I 161126 08:28:41 web:1946] 304 GET /static/js/ihome/my.js (127.0.0.1) 19.41ms
+[E 161126 08:28:41 userCenter:14] 42
+[E 161126 08:28:41 userCenter:19] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_avatar': None}
+[I 161126 08:28:41 web:1946] 304 GET /api/mymsg (127.0.0.1) 15.66ms
+[I 161126 08:28:44 web:1946] 304 GET /auth.html (127.0.0.1) 1.75ms
+[I 161126 08:28:45 web:1946] 200 GET /static/js/ihome/auth.js (127.0.0.1) 2.10ms
+[E 161126 08:28:45 userCenter:45] {'up_id_card': u'140645199205241234', 'up_real_name': u'\u674e\u98de'}
+[I 161126 08:28:45 web:1946] 304 GET /api/auth (127.0.0.1) 2.56ms
+[E 161126 08:28:55 userCenter:14] 42
+[E 161126 08:28:55 userCenter:19] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_avatar': None}
+[I 161126 08:28:55 web:1946] 304 GET /api/mymsg (127.0.0.1) 2.45ms
+[I 161126 08:29:04 web:1946] 304 GET /static/js/ihome/profile.js (127.0.0.1) 1.21ms
+[E 161126 08:29:04 profile:43] {'up_avatar': None}
+[E 161126 08:29:04 web:1524] Uncaught exception GET /api/profile/avatar (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/profile/avatar', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, sdch', 'X-Requested-With': 'XMLHttpRequest', 'Host': '127.0.0.1:8000', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36', 'Connection': 'keep-alive', 'Referer': 'http://127.0.0.1:8000/profile.html', 'Cookie': '_xsrf=2|7166f3e1|a0716bd0765e68c76ccdb61bc6dcd204|1480120099; session_id="2|1:0|10:1480120117|10:session_id|44:OWUzODZlMTViZWU4NTg5ZmEyNTk0MGUxNjc1OTM2NDg=|fc602c213baaa43daa1cefbd308298db1276846413a87b1a12d87497506fd67b"'})
+    Traceback (most recent call last):
+      File "/home/python/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1443, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/python/Desktop/ihome/utils/common.py", line 11, in wrapper
+        fun(request_handler_obj, *args, **kwargs)
+      File "/home/python/Desktop/ihome/handlers/profile.py", line 48, in get
+        img_url = image_url_prefix + img_name
+    TypeError: cannot concatenate 'str' and 'NoneType' objects
+[E 161126 08:29:04 web:1946] 500 GET /api/profile/avatar (127.0.0.1) 16.21ms
+[I 161126 08:49:42 web:1946] 304 GET /profile.html (127.0.0.1) 33.47ms
+[I 161126 08:49:43 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 7.69ms
+[I 161126 08:49:43 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 5.30ms
+[I 161126 08:49:43 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 15.16ms
+[I 161126 08:49:43 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 12.92ms
+[I 161126 08:49:43 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 4.38ms
+[I 161126 08:49:43 web:1946] 304 GET /static/css/ihome/profile.css (127.0.0.1) 1.69ms
+[I 161126 08:49:43 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 7.31ms
+[I 161126 08:49:43 web:1946] 304 GET /static/js/jquery.form.min.js (127.0.0.1) 15.38ms
+[I 161126 08:49:43 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 14.71ms
+[I 161126 08:49:43 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 14.85ms
+[I 161126 08:49:43 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 4.48ms
+[I 161126 08:49:43 web:1946] 304 GET /static/js/ihome/profile.js (127.0.0.1) 1.62ms
+[E 161126 08:49:43 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161126 08:49:43 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161126 08:49:43 web:1946] 200 GET /api/profile/avatar (127.0.0.1) 2.86ms
+[E 161126 08:51:10 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161126 08:51:10 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161126 08:51:10 web:1946] 200 POST /api/profile/avatar (127.0.0.1) 2.75ms
+[E 161126 08:51:14 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161126 08:51:14 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161126 08:51:14 web:1946] 200 POST /api/profile/avatar (127.0.0.1) 2.45ms
+[E 161126 08:51:15 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161126 08:51:15 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161126 08:51:15 web:1946] 200 POST /api/profile/avatar (127.0.0.1) 1.42ms
+[E 161126 08:52:01 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161126 08:52:01 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161126 08:52:01 web:1946] 200 POST /api/profile/avatar (127.0.0.1) 18.77ms
+[I 161126 08:52:21 web:1946] 304 GET /profile.html (127.0.0.1) 1.88ms
+[I 161126 08:52:21 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.33ms
+[I 161126 08:52:21 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 2.18ms
+[I 161126 08:52:21 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 0.98ms
+[I 161126 08:52:21 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 1.11ms
+[I 161126 08:52:21 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 0.98ms
+[I 161126 08:52:21 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 1.11ms
+[I 161126 08:52:21 web:1946] 304 GET /static/js/jquery.form.min.js (127.0.0.1) 1.55ms
+[I 161126 08:52:21 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.81ms
+[I 161126 08:52:21 web:1946] 304 GET /static/css/ihome/profile.css (127.0.0.1) 0.95ms
+[I 161126 08:52:21 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 1.84ms
+[I 161126 08:52:21 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 1.64ms
+[I 161126 08:52:21 web:1946] 304 GET /static/js/ihome/profile.js (127.0.0.1) 3.43ms
+[E 161126 08:52:21 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161126 08:52:21 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161126 08:52:21 web:1946] 200 GET /api/profile/avatar (127.0.0.1) 5.08ms
+[I 161126 08:56:35 web:1946] 304 GET /profile.html (127.0.0.1) 1.15ms
+[I 161126 08:56:35 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.78ms
+[I 161126 08:56:35 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 2.15ms
+[I 161126 08:56:35 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 0.75ms
+[I 161126 08:56:35 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 1.93ms
+[I 161126 08:56:35 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 2.10ms
+[I 161126 08:56:35 web:1946] 304 GET /static/js/jquery.form.min.js (127.0.0.1) 1.13ms
+[I 161126 08:56:35 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 3.94ms
+[I 161126 08:56:35 web:1946] 304 GET /static/css/ihome/profile.css (127.0.0.1) 1.15ms
+[I 161126 08:56:35 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 1.76ms
+[I 161126 08:56:35 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 1.60ms
+[I 161126 08:56:35 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 2.70ms
+[I 161126 08:56:35 web:1946] 200 GET /static/js/ihome/profile.js (127.0.0.1) 67.49ms
+[E 161126 08:56:36 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161126 08:56:36 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161126 08:56:36 web:1946] 304 GET /api/profile/avatar (127.0.0.1) 1.92ms
+[E 161126 08:56:38 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161126 08:56:38 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161126 08:56:38 web:1946] 200 POST /api/profile/avatar (127.0.0.1) 2.01ms
+[I 161126 09:00:19 web:1946] 304 GET /profile.html (127.0.0.1) 1.23ms
+[I 161126 09:00:20 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.74ms
+[I 161126 09:00:20 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 1.06ms
+[I 161126 09:00:20 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 4.87ms
+[I 161126 09:00:20 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 2.88ms
+[I 161126 09:00:20 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 1.00ms
+[I 161126 09:00:20 web:1946] 304 GET /static/css/ihome/profile.css (127.0.0.1) 1.23ms
+[I 161126 09:00:20 web:1946] 304 GET /static/js/jquery.form.min.js (127.0.0.1) 0.99ms
+[I 161126 09:00:20 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.34ms
+[I 161126 09:00:20 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 1.06ms
+[I 161126 09:00:20 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 1.38ms
+[I 161126 09:00:20 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 1.30ms
+[I 161126 09:00:20 web:1946] 200 GET /static/js/ihome/profile.js (127.0.0.1) 1.53ms
+[E 161126 09:00:20 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161126 09:00:20 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161126 09:00:20 web:1946] 200 GET /api/profile/avatar (127.0.0.1) 4.41ms
+[E 161126 09:00:22 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161126 09:00:22 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161126 09:00:22 web:1946] 200 POST /api/profile/avatar (127.0.0.1) 1.23ms
+[I 161126 09:00:51 web:1946] 304 GET /profile.html (127.0.0.1) 1.20ms
+[I 161126 09:00:51 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.35ms
+[I 161126 09:00:51 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 1.06ms
+[I 161126 09:00:51 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 1.87ms
+[I 161126 09:00:51 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 2.05ms
+[I 161126 09:00:51 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 1.45ms
+[I 161126 09:00:51 web:1946] 304 GET /static/css/ihome/profile.css (127.0.0.1) 1.13ms
+[I 161126 09:00:51 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 3.34ms
+[I 161126 09:00:51 web:1946] 200 GET /static/js/ihome/profile.js (127.0.0.1) 2.09ms
+[I 161126 09:00:51 web:1946] 304 GET /static/js/jquery.form.min.js (127.0.0.1) 4.26ms
+[I 161126 09:00:51 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 0.97ms
+[I 161126 09:00:51 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 1.58ms
+[I 161126 09:00:51 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 1.55ms
+[E 161126 09:00:52 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161126 09:00:52 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161126 09:00:52 web:1946] 200 GET /api/profile/avatar (127.0.0.1) 3.62ms
+[E 161126 09:00:54 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161126 09:00:54 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161126 09:00:54 web:1946] 200 POST /api/profile/avatar (127.0.0.1) 2.26ms
+[E 161126 09:01:00 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161126 09:01:00 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161126 09:01:00 web:1946] 200 GET /api/mymsg (127.0.0.1) 2.04ms
+[E 161126 09:01:04 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161126 09:01:04 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161126 09:01:04 web:1946] 200 GET /api/check_login (127.0.0.1) 1.75ms
+[W 161126 09:01:04 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 37.71ms
+[E 161126 09:01:42 login:18] 13863967948
+[E 161126 09:01:42 login:31] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_passwd': u'7c222fb2927d828af22f592134e8932480637c0d', 'up_user_id': 42L}
+[E 161126 09:01:42 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161126 09:01:42 session:38] 9e386e15bee8589fa25940e167593648
+[I 161126 09:01:42 web:1946] 200 POST /api/logindata (127.0.0.1) 215.82ms
+[W 161126 09:01:43 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 1.50ms
+[I 161126 09:01:43 web:1946] 200 GET /api/check_login (127.0.0.1) 2.58ms
+[E 161126 09:01:49 userCenter:14] 42
+[E 161126 09:01:49 userCenter:19] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_avatar': None}
+[I 161126 09:01:49 web:1946] 200 GET /api/mymsg (127.0.0.1) 60.09ms
+[E 161126 09:01:53 userCenter:45] {'up_id_card': u'140645199205241234', 'up_real_name': u'\u674e\u98de'}
+[I 161126 09:01:53 web:1946] 304 GET /api/auth (127.0.0.1) 1.84ms
+[I 161126 09:02:03 web:1946] 304 GET /static/js/ihome/profile.js (127.0.0.1) 0.87ms
+[E 161126 09:02:03 profile:43] {'up_avatar': None}
+[I 161126 09:02:03 web:1946] 200 GET /api/profile/avatar (127.0.0.1) 2.76ms
+[D 161126 09:02:34 retry:164] Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None)
+[I 161126 09:02:34 connectionpool:213] Starting new HTTP connection (1): up.qiniu.com
+[D 161126 09:02:35 connectionpool:395] "POST / HTTP/1.1" 200 76
+[I 161126 09:02:35 web:1946] 200 POST /api/profile/avatar (127.0.0.1) 506.93ms
+[I 161126 09:07:16 web:1946] 304 GET /profile.html (127.0.0.1) 1.73ms
+[I 161126 09:07:16 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.48ms
+[I 161126 09:07:16 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 1.08ms
+[I 161126 09:07:16 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 0.88ms
+[I 161126 09:07:16 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 0.64ms
+[I 161126 09:07:16 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 1.39ms
+[I 161126 09:07:16 web:1946] 304 GET /static/css/ihome/profile.css (127.0.0.1) 2.68ms
+[I 161126 09:07:16 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 3.51ms
+[I 161126 09:07:16 web:1946] 304 GET /static/js/jquery.form.min.js (127.0.0.1) 2.55ms
+[I 161126 09:07:16 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 1.17ms
+[I 161126 09:07:16 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 1.40ms
+[I 161126 09:07:16 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 3.08ms
+[I 161126 09:07:16 web:1946] 200 GET /static/js/ihome/profile.js (127.0.0.1) 1.32ms
+[E 161126 09:07:17 profile:43] {'up_avatar': u'FpBPD7dwOHLrQuXYywIjgQBGLWG7'}
+[I 161126 09:07:17 web:1946] 200 GET /api/profile/avatar (127.0.0.1) 2.66ms
+[I 161126 09:07:32 connectionpool:248] Resetting dropped connection: up.qiniu.com
+[D 161126 09:07:32 connectionpool:395] "POST / HTTP/1.1" 200 76
+[I 161126 09:07:32 web:1946] 200 POST /api/profile/avatar (127.0.0.1) 232.06ms
+[I 161126 09:09:37 connectionpool:248] Resetting dropped connection: up.qiniu.com
+[D 161126 09:09:39 connectionpool:395] "POST / HTTP/1.1" 200 76
+[I 161126 09:09:39 web:1946] 200 POST /api/profile/avatar (127.0.0.1) 1839.39ms
+[I 161126 09:12:34 web:1946] 304 GET /profile.html (127.0.0.1) 0.81ms
+[I 161126 09:12:35 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 2.33ms
+[I 161126 09:12:35 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 1.02ms
+[I 161126 09:12:35 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 0.89ms
+[I 161126 09:12:35 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 0.97ms
+[I 161126 09:12:35 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.75ms
+[I 161126 09:12:35 web:1946] 304 GET /static/js/jquery.form.min.js (127.0.0.1) 1.38ms
+[I 161126 09:12:35 web:1946] 304 GET /static/css/ihome/profile.css (127.0.0.1) 2.02ms
+[I 161126 09:12:35 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 1.09ms
+[I 161126 09:12:35 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 1.46ms
+[I 161126 09:12:35 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 1.04ms
+[I 161126 09:12:35 web:1946] 200 GET /static/js/ihome/profile.js (127.0.0.1) 1.50ms
+[I 161126 09:12:35 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 1.34ms
+[E 161126 09:12:35 profile:43] {'up_avatar': u'FsC3XdPcvHiQBE6PwPaH4JGUKHNe'}
+[I 161126 09:12:35 web:1946] 200 GET /api/profile/avatar (127.0.0.1) 2.85ms
+[I 161126 09:12:48 connectionpool:248] Resetting dropped connection: up.qiniu.com
+[D 161126 09:12:49 connectionpool:395] "POST / HTTP/1.1" 200 76
+[I 161126 09:12:49 web:1946] 200 POST /api/profile/avatar (127.0.0.1) 291.54ms
+[I 161126 09:15:05 web:1946] 304 GET /profile.html (127.0.0.1) 1.77ms
+[I 161126 09:15:05 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.50ms
+[I 161126 09:15:05 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 1.46ms
+[I 161126 09:15:05 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 0.65ms
+[I 161126 09:15:05 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 0.96ms
+[I 161126 09:15:05 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 1.49ms
+[I 161126 09:15:05 web:1946] 304 GET /static/css/ihome/profile.css (127.0.0.1) 1.02ms
+[I 161126 09:15:05 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 2.16ms
+[I 161126 09:15:05 web:1946] 304 GET /static/js/jquery.form.min.js (127.0.0.1) 4.51ms
+[I 161126 09:15:05 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 1.05ms
+[I 161126 09:15:05 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 2.30ms
+[I 161126 09:15:05 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 1.30ms
+[I 161126 09:15:05 web:1946] 200 GET /static/js/ihome/profile.js (127.0.0.1) 1.99ms
+[E 161126 09:15:05 profile:43] {'up_avatar': u'FnCRSfc-a1VO5ll5WBsMbjKGN7s1'}
+[I 161126 09:15:05 web:1946] 200 GET /api/profile/avatar (127.0.0.1) 2.74ms
+[I 161126 09:15:15 connectionpool:248] Resetting dropped connection: up.qiniu.com
+[D 161126 09:15:16 connectionpool:395] "POST / HTTP/1.1" 200 76
+[I 161126 09:15:16 web:1946] 200 POST /api/profile/avatar (127.0.0.1) 612.55ms
+[E 161126 09:15:27 userCenter:14] 42
+[E 161126 09:15:27 userCenter:19] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_avatar': u'FiYSS7LG_i_gNTtJuOntq3MUFyxx'}
+[I 161126 09:15:27 web:1946] 200 GET /api/mymsg (127.0.0.1) 2.81ms
+[W 161126 09:15:27 web:1946] 404 GET /FiYSS7LG_i_gNTtJuOntq3MUFyxx (127.0.0.1) 1.51ms
+[I 161126 09:15:30 web:1946] 304 GET /my.html (127.0.0.1) 29.27ms
+[I 161126 09:15:30 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.81ms
+[I 161126 09:15:30 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 3.04ms
+[I 161126 09:15:30 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 1.50ms
+[I 161126 09:15:30 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 1.78ms
+[I 161126 09:15:30 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 4.23ms
+[I 161126 09:15:30 web:1946] 304 GET /static/css/ihome/my.css (127.0.0.1) 44.76ms
+[I 161126 09:15:30 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 1.32ms
+[I 161126 09:15:30 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.66ms
+[I 161126 09:15:30 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 0.95ms
+[I 161126 09:15:30 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 1.36ms
+[I 161126 09:15:30 web:1946] 304 GET /static/js/ihome/my.js (127.0.0.1) 10.93ms
+[E 161126 09:15:31 userCenter:14] 42
+[E 161126 09:15:31 userCenter:19] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_avatar': u'FiYSS7LG_i_gNTtJuOntq3MUFyxx'}
+[I 161126 09:15:31 web:1946] 304 GET /api/mymsg (127.0.0.1) 2.22ms
+[W 161126 09:15:31 web:1946] 404 GET /FiYSS7LG_i_gNTtJuOntq3MUFyxx (127.0.0.1) 1.12ms
+[I 161126 09:16:50 autoreload:204] /home/python/Desktop/ihome/handlers/profile.py modified; restarting server
+[I 161126 09:16:53 web:1946] 304 GET /my.html (127.0.0.1) 18.67ms
+[I 161126 09:16:53 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 1.46ms
+[I 161126 09:16:53 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 1.24ms
+[I 161126 09:16:53 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.79ms
+[I 161126 09:16:53 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 5.12ms
+[I 161126 09:16:53 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 1.03ms
+[I 161126 09:16:53 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 1.30ms
+[I 161126 09:16:53 web:1946] 304 GET /static/css/ihome/my.css (127.0.0.1) 2.20ms
+[I 161126 09:16:53 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 1.04ms
+[I 161126 09:16:53 web:1946] 304 GET /static/js/ihome/my.js (127.0.0.1) 2.91ms
+[I 161126 09:16:53 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 3.39ms
+[I 161126 09:16:53 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 1.00ms
+[E 161126 09:16:54 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161126 09:16:54 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161126 09:16:54 web:1946] 200 GET /api/mymsg (127.0.0.1) 1.29ms
+[W 161126 09:16:56 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 2.15ms
+[E 161126 09:16:56 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161126 09:16:56 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161126 09:16:56 web:1946] 200 GET /api/check_login (127.0.0.1) 2.16ms
+[E 161126 09:17:03 login:18] 13863967948
+[E 161126 09:17:03 login:31] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_passwd': u'7c222fb2927d828af22f592134e8932480637c0d', 'up_user_id': 42L}
+[E 161126 09:17:03 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161126 09:17:03 session:38] 9e386e15bee8589fa25940e167593648
+[I 161126 09:17:03 web:1946] 200 POST /api/logindata (127.0.0.1) 4.48ms
+[I 161126 09:17:04 web:1946] 200 GET /api/check_login (127.0.0.1) 1.79ms
+[W 161126 09:17:04 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 1.05ms
+[E 161126 09:17:06 userCenter:14] 42
+[E 161126 09:17:06 userCenter:19] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_avatar': u'FiYSS7LG_i_gNTtJuOntq3MUFyxx'}
+[I 161126 09:17:06 web:1946] 200 GET /api/mymsg (127.0.0.1) 4.49ms
+[W 161126 09:17:06 web:1946] 404 GET /FiYSS7LG_i_gNTtJuOntq3MUFyxx (127.0.0.1) 1.97ms
+[I 161126 09:18:05 autoreload:204] /home/python/Desktop/ihome/handlers/profile.py modified; restarting server
+[I 161126 09:18:16 web:1946] 304 GET /my.html (127.0.0.1) 7.36ms
+[I 161126 09:18:16 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.27ms
+[I 161126 09:18:16 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 1.08ms
+[I 161126 09:18:16 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 1.46ms
+[I 161126 09:18:16 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 1.71ms
+[I 161126 09:18:16 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 1.53ms
+[I 161126 09:18:16 web:1946] 304 GET /static/css/ihome/my.css (127.0.0.1) 1.60ms
+[I 161126 09:18:16 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 1.02ms
+[I 161126 09:18:16 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.41ms
+[I 161126 09:18:16 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 1.47ms
+[I 161126 09:18:16 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 1.16ms
+[I 161126 09:18:16 web:1946] 304 GET /static/js/ihome/my.js (127.0.0.1) 1.99ms
+[E 161126 09:18:17 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161126 09:18:17 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161126 09:18:17 web:1946] 200 GET /api/mymsg (127.0.0.1) 3.09ms
+[E 161126 09:18:19 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161126 09:18:19 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161126 09:18:19 web:1946] 200 GET /api/check_login (127.0.0.1) 1.37ms
+[W 161126 09:18:19 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 2.03ms
+[E 161126 09:18:26 login:18] 13863967948
+[E 161126 09:18:26 login:31] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_passwd': u'7c222fb2927d828af22f592134e8932480637c0d', 'up_user_id': 42L}
+[E 161126 09:18:26 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161126 09:18:26 session:38] 9e386e15bee8589fa25940e167593648
+[I 161126 09:18:26 web:1946] 200 POST /api/logindata (127.0.0.1) 8.79ms
+[I 161126 09:18:26 web:1946] 200 GET /api/check_login (127.0.0.1) 1.74ms
+[W 161126 09:18:26 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 1.54ms
+[E 161126 09:18:28 userCenter:14] 42
+[E 161126 09:18:28 userCenter:19] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_avatar': u'FiYSS7LG_i_gNTtJuOntq3MUFyxx'}
+[I 161126 09:18:28 web:1946] 200 GET /api/mymsg (127.0.0.1) 2.67ms
+[W 161126 09:18:28 web:1946] 404 GET /FiYSS7LG_i_gNTtJuOntq3MUFyxx (127.0.0.1) 1.31ms
+[I 161126 09:24:09 autoreload:204] /home/python/Desktop/ihome/handlers/userCenter.py modified; restarting server
+[I 161126 09:24:57 web:1946] 304 GET /my.html (127.0.0.1) 6.65ms
+[I 161126 09:24:58 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.88ms
+[I 161126 09:24:58 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 1.55ms
+[I 161126 09:24:58 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 1.86ms
+[I 161126 09:24:58 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 1.02ms
+[I 161126 09:24:58 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 1.98ms
+[I 161126 09:24:58 web:1946] 304 GET /static/css/ihome/my.css (127.0.0.1) 2.06ms
+[I 161126 09:24:58 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.48ms
+[I 161126 09:24:58 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 2.19ms
+[I 161126 09:24:58 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 1.44ms
+[I 161126 09:24:58 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 1.74ms
+[I 161126 09:24:58 web:1946] 200 GET /static/js/ihome/my.js (127.0.0.1) 1.52ms
+[E 161126 09:24:58 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161126 09:24:58 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161126 09:24:58 web:1946] 200 GET /api/mymsg (127.0.0.1) 2.14ms
+[E 161126 09:25:00 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161126 09:25:00 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161126 09:25:00 web:1946] 200 GET /api/check_login (127.0.0.1) 3.10ms
+[W 161126 09:25:00 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 2.39ms
+[E 161126 09:25:06 login:18] 13863967948
+[E 161126 09:25:06 login:31] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_passwd': u'7c222fb2927d828af22f592134e8932480637c0d', 'up_user_id': 42L}
+[E 161126 09:25:06 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161126 09:25:06 session:38] 9e386e15bee8589fa25940e167593648
+[I 161126 09:25:06 web:1946] 200 POST /api/logindata (127.0.0.1) 11.95ms
+[I 161126 09:25:07 web:1946] 200 GET /api/check_login (127.0.0.1) 1.16ms
+[W 161126 09:25:07 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 1.87ms
+[I 161126 09:25:09 web:1946] 304 GET /static/js/ihome/my.js (127.0.0.1) 4.44ms
+[E 161126 09:25:09 userCenter:15] 42
+[E 161126 09:25:09 userCenter:20] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_avatar': u'FiYSS7LG_i_gNTtJuOntq3MUFyxx'}
+[E 161126 09:25:09 web:1524] Uncaught exception GET /api/mymsg (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/mymsg', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, sdch', 'X-Requested-With': 'XMLHttpRequest', 'Host': '127.0.0.1:8000', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36', 'Connection': 'keep-alive', 'Referer': 'http://127.0.0.1:8000/my.html', 'Cookie': '_xsrf=2|7166f3e1|a0716bd0765e68c76ccdb61bc6dcd204|1480120099; session_id="2|1:0|10:1480123506|10:session_id|44:OWUzODZlMTViZWU4NTg5ZmEyNTk0MGUxNjc1OTM2NDg=|d162b5802a8e5683a1eb157a151ff07982885f69a887d06bf08860f3df37621f"', 'If-None-Match': '"5653c60f8deb4041a81ae97fe57b1b9fc89f4f2d"'})
+    Traceback (most recent call last):
+      File "/home/python/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1443, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/python/Desktop/ihome/utils/common.py", line 11, in wrapper
+        fun(request_handler_obj, *args, **kwargs)
+      File "/home/python/Desktop/ihome/handlers/userCenter.py", line 24, in get
+        img_url = image_url_prefix + img_name
+    NameError: global name 'img_name' is not defined
+[E 161126 09:25:09 web:1946] 500 GET /api/mymsg (127.0.0.1) 47.64ms
+[I 161126 09:25:42 autoreload:204] /home/python/Desktop/ihome/handlers/userCenter.py modified; restarting server
+[E 161126 09:25:48 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161126 09:25:48 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161126 09:25:48 web:1946] 200 GET /api/check_login (127.0.0.1) 5.54ms
+[W 161126 09:25:48 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 2.70ms
+[E 161126 09:25:55 login:18] 13863967948
+[E 161126 09:25:55 login:31] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_passwd': u'7c222fb2927d828af22f592134e8932480637c0d', 'up_user_id': 42L}
+[E 161126 09:25:55 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161126 09:25:55 session:38] 9e386e15bee8589fa25940e167593648
+[I 161126 09:25:55 web:1946] 200 POST /api/logindata (127.0.0.1) 6.87ms
+[I 161126 09:25:55 web:1946] 200 GET /api/check_login (127.0.0.1) 1.60ms
+[W 161126 09:25:56 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 0.97ms
+[I 161126 09:25:57 web:1946] 304 GET /static/js/ihome/my.js (127.0.0.1) 6.98ms
+[E 161126 09:25:58 userCenter:15] 42
+[E 161126 09:25:58 userCenter:20] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_avatar': u'FiYSS7LG_i_gNTtJuOntq3MUFyxx'}
+[I 161126 09:25:58 web:1946] 200 GET /api/mymsg (127.0.0.1) 4.15ms
+[I 161126 09:26:12 web:1946] 304 GET /static/js/ihome/profile.js (127.0.0.1) 1.45ms
+[E 161126 09:26:12 profile:43] {'up_avatar': u'FiYSS7LG_i_gNTtJuOntq3MUFyxx'}
+[E 161126 09:26:12 profile:51] http://oh6xk3bcw.bkt.clouddn.com/
+[E 161126 09:26:12 web:1524] Uncaught exception GET /api/profile/avatar (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/profile/avatar', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, sdch', 'X-Requested-With': 'XMLHttpRequest', 'Host': '127.0.0.1:8000', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36', 'Connection': 'keep-alive', 'Referer': 'http://127.0.0.1:8000/profile.html', 'Cookie': '_xsrf=2|7166f3e1|a0716bd0765e68c76ccdb61bc6dcd204|1480120099; session_id="2|1:0|10:1480123555|10:session_id|44:OWUzODZlMTViZWU4NTg5ZmEyNTk0MGUxNjc1OTM2NDg=|471d4109d3011cfbf334cddc53fdf6a07e3bf2b649555582f12d52cc4ca79ddc"'})
+    Traceback (most recent call last):
+      File "/home/python/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1443, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/python/Desktop/ihome/utils/common.py", line 11, in wrapper
+        fun(request_handler_obj, *args, **kwargs)
+      File "/home/python/Desktop/ihome/handlers/profile.py", line 52, in get
+        logging(img_url)
+    TypeError: 'module' object is not callable
+[E 161126 09:26:12 web:1946] 500 GET /api/profile/avatar (127.0.0.1) 4.71ms
+[I 161126 09:26:40 autoreload:204] /home/python/Desktop/ihome/handlers/profile.py modified; restarting server
+[I 161126 09:26:44 web:1946] 304 GET /static/js/ihome/my.js (127.0.0.1) 10.83ms
+[E 161126 09:26:44 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161126 09:26:44 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161126 09:26:44 web:1946] 200 GET /api/mymsg (127.0.0.1) 1.79ms
+[E 161126 09:26:46 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161126 09:26:46 session:38] 4ebd020883285d698c44ec50939c0967
+[I 161126 09:26:46 web:1946] 200 GET /api/check_login (127.0.0.1) 3.70ms
+[W 161126 09:26:46 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 2.82ms
+[E 161126 09:26:54 login:18] 13863967948
+[E 161126 09:26:54 login:31] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_passwd': u'7c222fb2927d828af22f592134e8932480637c0d', 'up_user_id': 42L}
+[E 161126 09:26:54 session:36] 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+[E 161126 09:26:54 session:38] 9e386e15bee8589fa25940e167593648
+[I 161126 09:26:54 web:1946] 200 POST /api/logindata (127.0.0.1) 4.38ms
+[I 161126 09:26:54 web:1946] 200 GET /api/check_login (127.0.0.1) 2.32ms
+[W 161126 09:26:54 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 2.20ms
+[I 161126 09:26:57 web:1946] 304 GET /static/js/ihome/my.js (127.0.0.1) 1.52ms
+[E 161126 09:26:57 userCenter:15] 42
+[E 161126 09:26:57 userCenter:20] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_avatar': u'FiYSS7LG_i_gNTtJuOntq3MUFyxx'}
+[I 161126 09:26:57 web:1946] 200 GET /api/mymsg (127.0.0.1) 3.52ms
+[E 161126 09:26:59 profile:43] {'up_avatar': u'FiYSS7LG_i_gNTtJuOntq3MUFyxx'}
+[I 161126 09:26:59 web:1946] 200 GET /api/profile/avatar (127.0.0.1) 5.01ms
+[D 161126 09:28:59 retry:164] Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None)
+[I 161126 09:28:59 connectionpool:213] Starting new HTTP connection (1): up.qiniu.com
+[D 161126 09:28:59 connectionpool:395] "POST / HTTP/1.1" 200 76
+[I 161126 09:28:59 web:1946] 200 POST /api/profile/avatar (127.0.0.1) 200.21ms
+[I 161126 09:34:34 web:1946] 304 GET /profile.html (127.0.0.1) 1.86ms
+[I 161126 09:34:34 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.94ms
+[I 161126 09:34:34 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 1.25ms
+[I 161126 09:34:34 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 1.25ms
+[I 161126 09:34:34 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 1.41ms
+[I 161126 09:34:34 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 1.99ms
+[I 161126 09:34:34 web:1946] 304 GET /static/js/jquery.form.min.js (127.0.0.1) 1.12ms
+[I 161126 09:34:34 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 1.38ms
+[I 161126 09:34:34 web:1946] 304 GET /static/css/ihome/profile.css (127.0.0.1) 1.32ms
+[I 161126 09:34:34 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.51ms
+[I 161126 09:34:34 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 1.42ms
+[I 161126 09:34:34 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 4.21ms
+[I 161126 09:34:34 web:1946] 200 GET /static/js/ihome/profile.js (127.0.0.1) 1.45ms
+[E 161126 09:34:34 profile:43] {'up_avatar': u'FnCRSfc-a1VO5ll5WBsMbjKGN7s1'}
+[I 161126 09:34:34 web:1946] 200 GET /api/profile/avatar (127.0.0.1) 4.29ms
+[I 161126 09:34:38 connectionpool:248] Resetting dropped connection: up.qiniu.com
+[D 161126 09:34:39 connectionpool:395] "POST / HTTP/1.1" 200 76
+[I 161126 09:34:39 web:1946] 200 POST /api/profile/avatar (127.0.0.1) 347.54ms
+[I 161126 09:35:31 web:1946] 304 GET /profile.html (127.0.0.1) 1.77ms
+[I 161126 09:35:31 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 2.61ms
+[I 161126 09:35:31 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 0.98ms
+[I 161126 09:35:31 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 3.29ms
+[I 161126 09:35:31 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 2.53ms
+[I 161126 09:35:31 web:1946] 304 GET /static/css/ihome/profile.css (127.0.0.1) 2.42ms
+[I 161126 09:35:31 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 4.66ms
+[I 161126 09:35:31 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 1.73ms
+[I 161126 09:35:31 web:1946] 304 GET /static/js/jquery.form.min.js (127.0.0.1) 1.02ms
+[I 161126 09:35:31 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 1.35ms
+[I 161126 09:35:31 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 2.18ms
+[I 161126 09:35:31 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 1.26ms
+[I 161126 09:35:31 web:1946] 304 GET /static/js/ihome/profile.js (127.0.0.1) 1.70ms
+[E 161126 09:35:31 profile:43] {'up_avatar': u'FkKDTUr5d8rb7JUDa1xZmMf1b3G-'}
+[I 161126 09:35:31 web:1946] 200 GET /api/profile/avatar (127.0.0.1) 2.32ms
+[I 161126 09:35:55 connectionpool:248] Resetting dropped connection: up.qiniu.com
+[D 161126 09:35:55 connectionpool:395] "POST / HTTP/1.1" 200 76
+[I 161126 09:35:55 web:1946] 200 POST /api/profile/avatar (127.0.0.1) 247.47ms
+[I 161126 09:36:25 web:1946] 304 GET /profile.html (127.0.0.1) 1.73ms
+[I 161126 09:36:30 web:1946] 304 GET /profile.html (127.0.0.1) 1.90ms
+[I 161126 09:36:30 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.42ms
+[I 161126 09:36:30 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 1.64ms
+[I 161126 09:36:30 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 4.90ms
+[I 161126 09:36:30 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 1.71ms
+[I 161126 09:36:30 web:1946] 304 GET /static/css/ihome/profile.css (127.0.0.1) 1.17ms
+[I 161126 09:36:30 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.48ms
+[I 161126 09:36:30 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 3.91ms
+[I 161126 09:36:30 web:1946] 304 GET /static/js/jquery.form.min.js (127.0.0.1) 2.01ms
+[I 161126 09:36:30 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 0.94ms
+[I 161126 09:36:30 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 1.45ms
+[I 161126 09:36:30 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 3.67ms
+[I 161126 09:36:30 web:1946] 200 GET /static/js/ihome/profile.js (127.0.0.1) 2.20ms
+[E 161126 09:36:30 profile:43] {'up_avatar': u'FiYSS7LG_i_gNTtJuOntq3MUFyxx'}
+[I 161126 09:36:30 web:1946] 200 GET /api/profile/avatar (127.0.0.1) 2.17ms
+[I 161126 09:36:45 web:1946] 304 GET /profile.html (127.0.0.1) 1.34ms
+[D 161126 09:36:46 connectionpool:395] "POST / HTTP/1.1" 200 76
+[I 161126 09:36:46 web:1946] 200 POST /api/profile/avatar (127.0.0.1) 561.07ms
+[I 161126 09:36:46 web:1946] 304 GET /static/css/ihome/profile.css (127.0.0.1) 0.56ms
+[I 161126 09:36:46 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 1.26ms
+[I 161126 09:36:46 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 1.03ms
+[I 161126 09:36:46 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.64ms
+[I 161126 09:36:46 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.95ms
+[I 161126 09:36:46 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 3.04ms
+[I 161126 09:36:46 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 1.06ms
+[I 161126 09:36:46 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 1.43ms
+[I 161126 09:36:46 web:1946] 304 GET /static/js/jquery.form.min.js (127.0.0.1) 2.56ms
+[I 161126 09:36:46 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 1.21ms
+[I 161126 09:36:46 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 2.47ms
+[I 161126 09:36:46 web:1946] 304 GET /static/js/ihome/profile.js (127.0.0.1) 0.79ms
+[E 161126 09:36:46 profile:43] {'up_avatar': u'FuKN7pDmRR4c2vMSPGtmy0j5AYIe'}
+[I 161126 09:36:46 web:1946] 200 GET /api/profile/avatar (127.0.0.1) 2.29ms
+[D 161126 09:36:52 connectionpool:395] "POST / HTTP/1.1" 200 76
+[I 161126 09:36:52 web:1946] 200 POST /api/profile/avatar (127.0.0.1) 305.54ms
+[I 161126 09:37:11 web:1946] 304 GET /profile.html (127.0.0.1) 1.47ms
+[I 161126 09:37:12 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.63ms
+[I 161126 09:37:12 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 0.98ms
+[I 161126 09:37:12 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 1.06ms
+[I 161126 09:37:12 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 1.22ms
+[I 161126 09:37:12 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 0.95ms
+[I 161126 09:37:12 web:1946] 304 GET /static/css/ihome/profile.css (127.0.0.1) 0.97ms
+[I 161126 09:37:12 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 1.10ms
+[I 161126 09:37:12 web:1946] 304 GET /static/js/jquery.form.min.js (127.0.0.1) 1.98ms
+[I 161126 09:37:12 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.23ms
+[I 161126 09:37:12 web:1946] 304 GET /static/js/ihome/profile.js (127.0.0.1) 1.71ms
+[I 161126 09:37:12 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 2.06ms
+[I 161126 09:37:12 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 1.91ms
+[E 161126 09:37:12 profile:43] {'up_avatar': u'FuKN7pDmRR4c2vMSPGtmy0j5AYIe'}
+[I 161126 09:37:12 web:1946] 200 GET /api/profile/avatar (127.0.0.1) 2.44ms
+[D 161126 09:37:25 connectionpool:395] "POST / HTTP/1.1" 200 76
+[I 161126 09:37:25 web:1946] 200 POST /api/profile/avatar (127.0.0.1) 371.65ms
+[I 161126 09:37:36 web:1946] 304 GET /profile.html (127.0.0.1) 0.78ms
+[I 161126 09:37:36 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.27ms
+[I 161126 09:37:36 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 1.38ms
+[I 161126 09:37:36 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 1.04ms
+[I 161126 09:37:36 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.39ms
+[I 161126 09:37:36 web:1946] 304 GET /static/js/jquery.form.min.js (127.0.0.1) 1.04ms
+[I 161126 09:37:36 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 1.13ms
+[I 161126 09:37:36 web:1946] 304 GET /static/css/ihome/profile.css (127.0.0.1) 0.93ms
+[I 161126 09:37:36 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 1.04ms
+[I 161126 09:37:36 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 2.76ms
+[I 161126 09:37:36 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 1.92ms
+[I 161126 09:37:36 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 1.56ms
+[I 161126 09:37:36 web:1946] 304 GET /static/js/ihome/profile.js (127.0.0.1) 2.37ms
+[E 161126 09:37:37 profile:43] {'up_avatar': u'Fn1YfaeYtWRklnBZD9L8Ob8NZ2lD'}
+[I 161126 09:37:37 web:1946] 200 GET /api/profile/avatar (127.0.0.1) 1.97ms
+[D 161126 09:37:40 connectionpool:395] "POST / HTTP/1.1" 200 76
+[I 161126 09:37:40 web:1946] 200 POST /api/profile/avatar (127.0.0.1) 173.90ms
+[I 161126 09:54:49 connectionpool:248] Resetting dropped connection: up.qiniu.com
+[D 161126 09:54:49 connectionpool:395] "POST / HTTP/1.1" 200 76
+[I 161126 09:54:49 web:1946] 200 POST /api/profile/avatar (127.0.0.1) 220.26ms
+[I 161126 09:54:57 web:1946] 304 GET /profile.html (127.0.0.1) 1.84ms
+[I 161126 09:54:57 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.76ms
+[I 161126 09:54:57 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 1.26ms
+[I 161126 09:54:57 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 1.47ms
+[I 161126 09:54:57 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 1.50ms
+[I 161126 09:54:57 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 2.09ms
+[I 161126 09:54:57 web:1946] 304 GET /static/css/ihome/profile.css (127.0.0.1) 5.31ms
+[I 161126 09:54:57 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.32ms
+[I 161126 09:54:57 web:1946] 304 GET /static/js/jquery.form.min.js (127.0.0.1) 1.36ms
+[I 161126 09:54:57 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 7.96ms
+[I 161126 09:54:57 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 2.47ms
+[I 161126 09:54:57 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 2.58ms
+[I 161126 09:54:57 web:1946] 200 GET /static/js/ihome/profile.js (127.0.0.1) 3.06ms
+[E 161126 09:54:58 profile:43] {'up_avatar': u'FiYSS7LG_i_gNTtJuOntq3MUFyxx'}
+[I 161126 09:54:58 web:1946] 200 GET /api/profile/avatar (127.0.0.1) 6.00ms
+[E 161126 09:55:00 profile:18] 'avatar'
+[I 161126 09:55:00 web:1946] 200 POST /api/profile/avatar (127.0.0.1) 1.53ms
+[I 161126 09:57:50 web:1946] 304 GET /profile.html (127.0.0.1) 2.37ms
+[I 161126 09:57:51 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.56ms
+[I 161126 09:57:51 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 1.23ms
+[I 161126 09:57:51 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 2.88ms
+[I 161126 09:57:51 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 1.27ms
+[I 161126 09:57:51 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 3.44ms
+[I 161126 09:57:51 web:1946] 304 GET /static/css/ihome/profile.css (127.0.0.1) 2.37ms
+[I 161126 09:57:51 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 2.47ms
+[I 161126 09:57:51 web:1946] 304 GET /static/js/jquery.form.min.js (127.0.0.1) 0.92ms
+[I 161126 09:57:51 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 1.19ms
+[I 161126 09:57:51 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 1.29ms
+[I 161126 09:57:51 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 4.68ms
+[I 161126 09:57:51 web:1946] 200 GET /static/js/ihome/profile.js (127.0.0.1) 1.96ms
+[E 161126 09:57:52 profile:43] {'up_avatar': u'FiYSS7LG_i_gNTtJuOntq3MUFyxx'}
+[I 161126 09:57:52 web:1946] 200 GET /api/profile/avatar (127.0.0.1) 2.28ms
+[I 161126 09:57:56 connectionpool:248] Resetting dropped connection: up.qiniu.com
+[D 161126 09:57:56 connectionpool:395] "POST / HTTP/1.1" 200 76
+[I 161126 09:57:56 web:1946] 200 POST /api/profile/avatar (127.0.0.1) 730.74ms
+[D 161126 09:58:00 connectionpool:395] "POST / HTTP/1.1" 200 76
+[I 161126 09:58:00 web:1946] 200 POST /api/profile/avatar (127.0.0.1) 330.98ms
+[D 161126 09:58:04 connectionpool:395] "POST / HTTP/1.1" 200 76
+[I 161126 09:58:04 web:1946] 200 POST /api/profile/avatar (127.0.0.1) 356.25ms
+[D 161126 09:58:05 connectionpool:395] "POST / HTTP/1.1" 200 76
+[I 161126 09:58:05 web:1946] 200 POST /api/profile/avatar (127.0.0.1) 423.68ms
+[D 161126 09:58:07 connectionpool:395] "POST / HTTP/1.1" 200 76
+[I 161126 09:58:07 web:1946] 200 POST /api/profile/avatar (127.0.0.1) 1214.80ms
+[D 161126 09:58:08 connectionpool:395] "POST / HTTP/1.1" 200 76
+[I 161126 09:58:08 web:1946] 200 POST /api/profile/avatar (127.0.0.1) 1179.37ms
+[D 161126 09:58:09 connectionpool:395] "POST / HTTP/1.1" 200 76
+[I 161126 09:58:09 web:1946] 200 POST /api/profile/avatar (127.0.0.1) 1154.81ms
+[D 161126 09:58:10 connectionpool:395] "POST / HTTP/1.1" 200 76
+[I 161126 09:58:10 web:1946] 200 POST /api/profile/avatar (127.0.0.1) 1301.56ms
+[D 161126 09:58:11 connectionpool:395] "POST / HTTP/1.1" 200 76
+[I 161126 09:58:11 web:1946] 200 POST /api/profile/avatar (127.0.0.1) 1130.74ms
+[D 161126 09:58:13 connectionpool:395] "POST / HTTP/1.1" 200 76
+[I 161126 09:58:13 web:1946] 200 POST /api/profile/avatar (127.0.0.1) 1341.10ms
+[D 161126 09:58:14 connectionpool:395] "POST / HTTP/1.1" 200 76
+[I 161126 09:58:14 web:1946] 200 POST /api/profile/avatar (127.0.0.1) 1238.70ms
+[D 161126 09:58:15 connectionpool:395] "POST / HTTP/1.1" 200 76
+[I 161126 09:58:15 web:1946] 200 POST /api/profile/avatar (127.0.0.1) 1100.94ms
+[D 161126 09:58:16 connectionpool:395] "POST / HTTP/1.1" 200 76
+[I 161126 09:58:16 web:1946] 200 POST /api/profile/avatar (127.0.0.1) 1231.34ms
+[D 161126 09:58:18 connectionpool:395] "POST / HTTP/1.1" 200 76
+[I 161126 09:58:18 web:1946] 200 POST /api/profile/avatar (127.0.0.1) 1227.57ms
+[D 161126 09:58:19 connectionpool:395] "POST / HTTP/1.1" 200 76
+[I 161126 09:58:19 web:1946] 200 POST /api/profile/avatar (127.0.0.1) 1274.58ms
+[D 161126 09:58:20 connectionpool:395] "POST / HTTP/1.1" 200 76
+[I 161126 09:58:20 web:1946] 200 POST /api/profile/avatar (127.0.0.1) 1178.74ms
+[D 161126 09:58:21 connectionpool:395] "POST / HTTP/1.1" 200 76
+[I 161126 09:58:21 web:1946] 200 POST /api/profile/avatar (127.0.0.1) 1187.16ms
+[D 161126 09:58:23 connectionpool:395] "POST / HTTP/1.1" 200 76
+[I 161126 09:58:23 web:1946] 200 POST /api/profile/avatar (127.0.0.1) 1290.76ms
+[D 161126 09:58:24 connectionpool:395] "POST / HTTP/1.1" 200 76
+[I 161126 09:58:24 web:1946] 200 POST /api/profile/avatar (127.0.0.1) 1239.10ms
+[D 161126 09:58:25 connectionpool:395] "POST / HTTP/1.1" 200 76
+[I 161126 09:58:25 web:1946] 200 POST /api/profile/avatar (127.0.0.1) 1516.92ms
+[D 161126 09:58:26 connectionpool:395] "POST / HTTP/1.1" 200 76
+[I 161126 09:58:26 web:1946] 200 POST /api/profile/avatar (127.0.0.1) 1068.06ms
+[D 161126 09:58:28 connectionpool:395] "POST / HTTP/1.1" 200 76
+[I 161126 09:58:28 web:1946] 200 POST /api/profile/avatar (127.0.0.1) 1190.78ms
+[D 161126 09:58:29 connectionpool:395] "POST / HTTP/1.1" 200 76
+[I 161126 09:58:29 web:1946] 200 POST /api/profile/avatar (127.0.0.1) 1066.87ms
+[I 161126 09:58:29 web:1946] 304 GET /profile.html (127.0.0.1) 0.89ms
+[D 161126 09:58:30 connectionpool:395] "POST / HTTP/1.1" 200 76
+[I 161126 09:58:30 web:1946] 200 POST /api/profile/avatar (127.0.0.1) 1206.25ms
+[D 161126 09:58:31 connectionpool:395] "POST / HTTP/1.1" 200 76
+[I 161126 09:58:31 web:1946] 200 POST /api/profile/avatar (127.0.0.1) 1262.95ms
+[I 161126 09:58:31 web:1946] 200 GET /profile.html (127.0.0.1) 1.26ms
+[I 161126 09:58:31 web:1946] 200 GET /profile.html (127.0.0.1) 2.04ms
+[D 161126 09:58:33 connectionpool:395] "POST / HTTP/1.1" 200 76
+[I 161126 09:58:33 web:1946] 200 POST /api/profile/avatar (127.0.0.1) 1609.69ms
+[D 161126 09:58:34 connectionpool:395] "POST / HTTP/1.1" 200 76
+[I 161126 09:58:34 web:1946] 200 POST /api/profile/avatar (127.0.0.1) 939.18ms
+[I 161126 09:58:34 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 0.88ms
+[I 161126 09:58:34 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 0.58ms
+[I 161126 09:58:34 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 0.50ms
+[I 161126 09:58:34 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 0.57ms
+[I 161126 09:58:34 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 0.53ms
+[I 161126 09:58:34 web:1946] 304 GET /static/css/ihome/profile.css (127.0.0.1) 0.49ms
+[I 161126 09:58:34 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 2.89ms
+[I 161126 09:58:34 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 5.71ms
+[I 161126 09:58:34 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 4.48ms
+[I 161126 09:58:34 web:1946] 304 GET /static/js/ihome/profile.js (127.0.0.1) 1.43ms
+[I 161126 09:58:34 web:1946] 304 GET /static/js/jquery.form.min.js (127.0.0.1) 1.95ms
+[I 161126 09:58:34 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 5.40ms
+[E 161126 09:58:34 profile:43] {'up_avatar': u'FuKN7pDmRR4c2vMSPGtmy0j5AYIe'}
+[I 161126 09:58:34 web:1946] 200 GET /api/profile/avatar (127.0.0.1) 2.59ms
+[D 161126 09:58:54 connectionpool:395] "POST / HTTP/1.1" 200 76
+[I 161126 09:58:54 web:1946] 200 POST /api/profile/avatar (127.0.0.1) 1370.98ms
+[I 161126 10:00:50 connectionpool:248] Resetting dropped connection: up.qiniu.com
+[D 161126 10:00:52 connectionpool:395] "POST / HTTP/1.1" 200 76
+[I 161126 10:00:52 web:1946] 200 POST /api/profile/avatar (127.0.0.1) 2550.22ms
+[I 161126 10:00:53 web:1946] 304 GET /profile.html (127.0.0.1) 1.15ms
+[I 161126 10:00:53 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.34ms
+[I 161126 10:00:53 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 0.98ms
+[I 161126 10:00:53 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 2.57ms
+[I 161126 10:00:53 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.28ms
+[I 161126 10:00:53 web:1946] 304 GET /static/css/ihome/profile.css (127.0.0.1) 0.91ms
+[I 161126 10:00:53 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 1.13ms
+[I 161126 10:00:53 web:1946] 304 GET /static/js/jquery.form.min.js (127.0.0.1) 1.67ms
+[I 161126 10:00:53 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 4.25ms
+[I 161126 10:00:53 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 1.83ms
+[I 161126 10:00:53 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 2.51ms
+[I 161126 10:00:53 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 5.56ms
+[I 161126 10:00:53 web:1946] 200 GET /static/js/ihome/profile.js (127.0.0.1) 1.13ms
+[E 161126 10:00:53 profile:43] {'up_avatar': u'Fs_CcJ4RXOS-drCYtCnzBtFxGvAt'}
+[I 161126 10:00:53 web:1946] 200 GET /api/profile/avatar (127.0.0.1) 3.47ms
+[E 161126 10:01:03 profile:18] 'avatar'
+[I 161126 10:01:03 web:1946] 200 POST /api/profile/avatar (127.0.0.1) 1.54ms
+[I 161126 10:02:25 web:1946] 304 GET /profile.html (127.0.0.1) 0.95ms
+[I 161126 10:02:25 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.51ms
+[I 161126 10:02:25 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 1.83ms
+[I 161126 10:02:25 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 4.26ms
+[I 161126 10:02:25 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 1.46ms
+[I 161126 10:02:25 web:1946] 304 GET /static/css/ihome/profile.css (127.0.0.1) 0.91ms
+[I 161126 10:02:25 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 1.50ms
+[I 161126 10:02:25 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 0.85ms
+[I 161126 10:02:25 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 0.96ms
+[I 161126 10:02:25 web:1946] 304 GET /static/js/jquery.form.min.js (127.0.0.1) 2.04ms
+[I 161126 10:02:25 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 4.41ms
+[I 161126 10:02:25 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 1.08ms
+[I 161126 10:02:25 web:1946] 200 GET /static/js/ihome/profile.js (127.0.0.1) 1.50ms
+[W 161126 10:02:32 web:1521] 403 POST /api/profile/avatar (127.0.0.1): '_xsrf' argument missing from POST
+[W 161126 10:02:32 web:1946] 403 POST /api/profile/avatar (127.0.0.1) 1.19ms
+[I 161126 10:02:52 web:1946] 304 GET / (127.0.0.1) 22.79ms
+[I 161126 10:02:52 web:1946] 304 GET /api/check_login (127.0.0.1) 1.43ms
+[W 161126 10:02:52 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 0.85ms
+[I 161126 10:02:55 web:1946] 304 GET /static/js/ihome/my.js (127.0.0.1) 1.91ms
+[E 161126 10:02:55 userCenter:15] 42
+[E 161126 10:02:55 userCenter:20] {'up_name': u'13863967948', 'up_mobile': u'13863967948', 'up_avatar': u'Fs_CcJ4RXOS-drCYtCnzBtFxGvAt'}
+[I 161126 10:02:55 web:1946] 200 GET /api/mymsg (127.0.0.1) 4.75ms
+[I 161126 10:02:57 web:1946] 304 GET /static/js/ihome/profile.js (127.0.0.1) 2.23ms
+[I 161126 10:03:14 web:1946] 304 GET /profile.html (127.0.0.1) 2.55ms
+[I 161126 10:03:15 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.90ms
+[I 161126 10:03:15 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 0.95ms
+[I 161126 10:03:15 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 0.98ms
+[I 161126 10:03:15 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 1.31ms
+[I 161126 10:03:15 web:1946] 304 GET /static/css/ihome/profile.css (127.0.0.1) 1.14ms
+[I 161126 10:03:15 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 3.38ms
+[I 161126 10:03:15 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 9.96ms
+[I 161126 10:03:15 web:1946] 304 GET /static/js/jquery.form.min.js (127.0.0.1) 2.54ms
+[I 161126 10:03:15 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 0.95ms
+[I 161126 10:03:15 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 1.11ms
+[I 161126 10:03:15 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 1.77ms
+[I 161126 10:03:15 web:1946] 200 GET /static/js/ihome/profile.js (127.0.0.1) 1.98ms
+[E 161126 10:03:15 profile:43] {'up_avatar': u'Fs_CcJ4RXOS-drCYtCnzBtFxGvAt'}
+[I 161126 10:03:15 web:1946] 200 GET /api/profile/avatar (127.0.0.1) 1.69ms
+[E 161126 10:03:21 profile:18] 'avatar'
+[I 161126 10:03:21 web:1946] 200 POST /api/profile/avatar (127.0.0.1) 1.78ms
