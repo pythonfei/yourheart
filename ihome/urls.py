@@ -7,7 +7,7 @@ from handlers.register import Phone_code, RegisterHandler
 from handlers.BaseHandler import StaticFileHandler
 from handlers.login import LoginHandler
 from handlers.passport import Check_login
-from handlers.profile import ProfileHandler
+from handlers.profile import ProfileHandler,UserNameHandler
 from handlers.userCenter import MymsgHandler,LogoutHandler,AuthHandler
 
 
@@ -19,6 +19,7 @@ handler = [
     (r'/api/logindata', LoginHandler),
     (r'/api/check_login', Check_login),
     (r'/api/profile/avatar',ProfileHandler),
+    (r'/api/profile/name',UserNameHandler),
     (r'/api/mymsg',MymsgHandler),
     (r'/api/logout',LogoutHandler),
     (r'/api/auth',AuthHandler),
