@@ -50,4 +50,54 @@ class ProfileHandler(BaseHandler):
 		img_url = image_url_prefix + img_name
 		self.write({"errno": RET.OK, "errmsg": "OK", "url": img_url})
 
+class UserNameHandler(BaseHandler):
+	"""头像验证"""
+	@require_logined
+	def get(self):
+		user_id = self.session.data["user_id"]
+		try:
+			sql = "select up_name from ih_user_profile where up_user_id=%(user_id)s"
+			data = dict(user_id=user_id)
+			ret = self.db.get(sql,**data)
+		except Exception as e:
+			logging.error(e)
+			return self.write({"errno": RET.DBERR, "errmsg": "数据错误"})
+		
+		self.write(dict(errno=RET.OK,errmsg="OK",data=ret["up_name"]))
+	@require_logined
+	def post(self):
+		"""保存名字"""
+		user_id = self.session.data["user_id"]
+		try:
+			name = self.json_args.get("name_data")
+			logging.error(name)
+		except Exception as e:
+			logging.error(e)
+			return self.write({"errno": RET.DATAERR, "errmsg": "数据错误"})
+		if None == name:
+			return self.write({"errno": RET.DATAERR, "errmsg": "名字不能为空"})
+		if len(name)>10 or len(name)<=0:
+			return self.write({"errno": RET.DATAERR, "errmsg": "名字必须是1到10位"})
+		try:
+			sql = "select up_name from ih_user_profile where up_name=%(name)s"
+			data = dict(name=name)
+			ret = self.db.get(sql,**data)
+		except Exception as e:
+			logging.error(e)
+			return self.write({"errno": RET.DBERR, "errmsg": "数据错误"})
+		if ret :
+			return self.write(dict(errno=RET.USERERR,errmsg="用户名已注册"))
+		try:
+			sql = "update ih_user_profile set up_name=%(name)s where up_user_id=%(user_id)s"
+			data = dict(user_id=user_id,name=name)
+			ret = self.db.execute(sql,**data)
+		except Exception as e:
+			logging.error(e)
+			return self.write({"errno":RET.DBERR, "errmsg":"upload failed"})
+		self.write(dict(errno=RET.OK,errmsg="OK",name=name))
+
+
+
+
+
 
